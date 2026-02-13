@@ -1,0 +1,2199 @@
+[
+  {
+    "id": "prod-001",
+    "code": "001",
+    "name": "綠茶",
+    "nameEn": "美白面膜",
+    "type": "蠶絲面膜",
+    "description": "綠產美白面膜是以綠茶提取物為主要成分，具有抗氧化、抗炎和美白的多重功效，非常適合肌膚暗沉、不均勻膚色或需要抗氧化呵護的肌膚使用。它能幫助提亮膚色，改善肌膚質感，讓肌膚更加亮澤細膩。適合各類膚質。",
+    "price": "0",
+    "note": "價錢已經包含面膜袋",
+    "stock": 100,
+    "categoryId": "cat-mask",
+    "imageUrl": "/images/001.png",
+    "options": [
+      {
+        "quantity": 100,
+        "price": 20,
+        "unit": 1,
+        "label": "100片",
+        "priceLabel": "$20@1"
+      },
+      {
+        "quantity": 200,
+        "price": 18,
+        "unit": 1,
+        "label": "200片",
+        "priceLabel": "$18@1"
+      },
+      {
+        "quantity": 300,
+        "price": 16,
+        "unit": 1,
+        "label": "300片",
+        "priceLabel": "$16@1"
+      },
+      {
+        "quantity": 400,
+        "price": 14,
+        "unit": 1,
+        "label": "400片",
+        "priceLabel": "$14@1"
+      },
+      {
+        "quantity": 500,
+        "price": 12,
+        "unit": 1,
+        "label": "500片",
+        "priceLabel": "$12@1"
+      }
+    ]
+  },
+  {
+    "id": "prod-002",
+    "code": "002",
+    "name": "納米",
+    "nameEn": "美白面膜",
+    "type": "蠶絲面膜",
+    "description": "納米美白面膜是一款運用先進納米技術的美容產品，能有效將美白與抗氧化成分轉化為微小的納米粒子，從而深入肌膚底層，提升亮白度並改善膚色不均和暗沉問題。結合現代科技與優質美白成分，它能實現更深層且持久的護膚效果，讓肌膚展現自然光彩與健康亮澤。適合各類膚質。",
+    "price": "0",
+    "note": "價錢已經包含面膜袋",
+    "stock": 100,
+    "categoryId": "cat-mask",
+    "imageUrl": "/images/002.png",
+    "options": [
+      {
+        "quantity": 100,
+        "price": 20,
+        "unit": 1,
+        "label": "100片",
+        "priceLabel": "$20@1"
+      },
+      {
+        "quantity": 200,
+        "price": 18,
+        "unit": 1,
+        "label": "200片",
+        "priceLabel": "$18@1"
+      },
+      {
+        "quantity": 300,
+        "price": 16,
+        "unit": 1,
+        "label": "300片",
+        "priceLabel": "$16@1"
+      },
+      {
+        "quantity": 400,
+        "price": 14,
+        "unit": 1,
+        "label": "400片",
+        "priceLabel": "$14@1"
+      },
+      {
+        "quantity": 500,
+        "price": 12,
+        "unit": 1,
+        "label": "500片",
+        "priceLabel": "$12@1"
+      }
+    ]
+  },
+  {
+    "id": "prod-003",
+    "code": "003",
+    "name": "金箔",
+    "nameEn": "美白面膜",
+    "type": "蠶絲面膜",
+    "description": "金箔美白面膜是一款奢華的產品，融合金箔元素與美白成分，旨在提升肌膚光澤、提亮膚色並帶來奢華享受。金箔具有抗氧化和抗炎效果，能幫助舒緩肌膚，抵抗自由基，促進肌膚修復。適合各類膚質。適合所有膚質。",
+    "price": "0",
+    "note": "價錢已經包含面膜袋",
+    "stock": 100,
+    "categoryId": "cat-mask",
+    "imageUrl": "/images/003.png",
+    "options": [
+      {
+        "quantity": 100,
+        "price": 20,
+        "unit": 1,
+        "label": "100片",
+        "priceLabel": "$20@1"
+      },
+      {
+        "quantity": 200,
+        "price": 18,
+        "unit": 1,
+        "label": "200片",
+        "priceLabel": "$18@1"
+      },
+      {
+        "quantity": 300,
+        "price": 16,
+        "unit": 1,
+        "label": "300片",
+        "priceLabel": "$16@1"
+      },
+      {
+        "quantity": 400,
+        "price": 14,
+        "unit": 1,
+        "label": "400片",
+        "priceLabel": "$14@1"
+      },
+      {
+        "quantity": 500,
+        "price": 12,
+        "unit": 1,
+        "label": "500片",
+        "priceLabel": "$12@1"
+      }
+    ]
+  },
+  {
+    "id": "prod-004",
+    "code": "004",
+    "name": "骨膠原",
+    "nameEn": "美白面膜",
+    "type": "蠶絲面膜",
+    "description": "骨膠原美白面膜是一款結合膠原蛋白與美白成分的護膚產品，旨在深層滋養肌膚，提升肌膚彈性與亮澤，同時改善暗沉和不均勻膚色。膠原蛋白在肌膚中扮演著重要角色，能幫助緊緻肌膚、減少細紋，搭配美白成分，打造年輕亮麗的肌膚。適合所有膚質。",
+    "price": "0",
+    "note": "價錢已經包含面膜袋",
+    "stock": 100,
+    "categoryId": "cat-mask",
+    "imageUrl": "/images/004.png",
+    "options": [
+      {
+        "quantity": 100,
+        "price": 20,
+        "unit": 1,
+        "label": "100片",
+        "priceLabel": "$20@1"
+      },
+      {
+        "quantity": 200,
+        "price": 18,
+        "unit": 1,
+        "label": "200片",
+        "priceLabel": "$18@1"
+      },
+      {
+        "quantity": 300,
+        "price": 16,
+        "unit": 1,
+        "label": "300片",
+        "priceLabel": "$16@1"
+      },
+      {
+        "quantity": 400,
+        "price": 14,
+        "unit": 1,
+        "label": "400片",
+        "priceLabel": "$14@1"
+      },
+      {
+        "quantity": 500,
+        "price": 12,
+        "unit": 1,
+        "label": "500片",
+        "priceLabel": "$12@1"
+      }
+    ]
+  },
+  {
+    "id": "prod-005",
+    "code": "005",
+    "name": "幹細胞",
+    "nameEn": "美白面膜",
+    "type": "蠶絲面膜",
+    "description": "幹細胞美白面膜是一款融合幹細胞技術與美白成分的高階護膚產品，旨在激活皮膚細胞的活力，促進肌膚再生，並提升肌膚亮白度。它能幫助改善膚色不均、暗沉和肌膚老化跡象，讓肌膚更加年輕、細膩與光采照人。適合所有膚質。",
+    "price": "0",
+    "note": "價錢已經包含面膜袋",
+    "stock": 100,
+    "categoryId": "cat-mask",
+    "imageUrl": "/images/005.png",
+    "options": [
+      {
+        "quantity": 100,
+        "price": 20,
+        "unit": 1,
+        "label": "100片",
+        "priceLabel": "$20@1"
+      },
+      {
+        "quantity": 200,
+        "price": 18,
+        "unit": 1,
+        "label": "200片",
+        "priceLabel": "$18@1"
+      },
+      {
+        "quantity": 300,
+        "price": 16,
+        "unit": 1,
+        "label": "300片",
+        "priceLabel": "$16@1"
+      },
+      {
+        "quantity": 400,
+        "price": 14,
+        "unit": 1,
+        "label": "400片",
+        "priceLabel": "$14@1"
+      },
+      {
+        "quantity": 500,
+        "price": 12,
+        "unit": 1,
+        "label": "500片",
+        "priceLabel": "$12@1"
+      }
+    ]
+  },
+  {
+    "id": "prod-006",
+    "code": "006",
+    "name": "熊果素",
+    "nameEn": "美白面膜",
+    "type": "蠶絲面膜",
+    "description": "熊果素美白面膜是一款以熊果素提取物為核心成分的護膚產品，專門針對肌膚美白、提亮膚色以及改善暗沉問題設計。熊果素具有天然的美白抑黑效果，能有效抑制黑色素的形成，讓肌膚更加白皙明亮。適合膚色暗沉、膚色不均或膚質較暗的肌膚。",
+    "price": "0",
+    "note": "價錢已經包含面膜袋",
+    "stock": 100,
+    "categoryId": "cat-mask",
+    "imageUrl": "/images/006.png",
+    "options": [
+      {
+        "quantity": 100,
+        "price": 20,
+        "unit": 1,
+        "label": "100片",
+        "priceLabel": "$20@1"
+      },
+      {
+        "quantity": 200,
+        "price": 18,
+        "unit": 1,
+        "label": "200片",
+        "priceLabel": "$18@1"
+      },
+      {
+        "quantity": 300,
+        "price": 16,
+        "unit": 1,
+        "label": "300片",
+        "priceLabel": "$16@1"
+      },
+      {
+        "quantity": 400,
+        "price": 14,
+        "unit": 1,
+        "label": "400片",
+        "priceLabel": "$14@1"
+      },
+      {
+        "quantity": 500,
+        "price": 12,
+        "unit": 1,
+        "label": "500片",
+        "priceLabel": "$12@1"
+      }
+    ]
+  },
+  {
+    "id": "prod-007",
+    "code": "007",
+    "name": "薰衣草",
+    "nameEn": "美白面膜",
+    "type": "蠶絲面膜",
+    "description": "薰衣草美白面膜是一款融合薰衣草提取物與美白成分的護膚產品，除了帶來美白提亮的效果外，還能舒緩肌膚、改善肌膚敏感與疲勞。薰衣草具有抗氧化、抗炎和放鬆作用，使用這款面膜能令肌膚恢復光澤，營造出健康、亮麗的膚色。這款面膜適合各種肌膚，特別是敏感肌。",
+    "price": "0",
+    "note": "價錢已經包含面膜袋",
+    "stock": 100,
+    "categoryId": "cat-mask",
+    "imageUrl": "/images/007.png",
+    "options": [
+      {
+        "quantity": 100,
+        "price": 20,
+        "unit": 1,
+        "label": "100片",
+        "priceLabel": "$20@1"
+      },
+      {
+        "quantity": 200,
+        "price": 18,
+        "unit": 1,
+        "label": "200片",
+        "priceLabel": "$18@1"
+      },
+      {
+        "quantity": 300,
+        "price": 16,
+        "unit": 1,
+        "label": "300片",
+        "priceLabel": "$16@1"
+      },
+      {
+        "quantity": 400,
+        "price": 14,
+        "unit": 1,
+        "label": "400片",
+        "priceLabel": "$14@1"
+      },
+      {
+        "quantity": 500,
+        "price": 12,
+        "unit": 1,
+        "label": "500片",
+        "priceLabel": "$12@1"
+      }
+    ]
+  },
+  {
+    "id": "prod-008",
+    "code": "008",
+    "name": "水凝",
+    "nameEn": "保濕面膜",
+    "type": "蠶絲面膜",
+    "description": "水凝保濕面膜主要用於快速補水，讓肌膚變得柔嫩光滑，充滿水潤光澤。它還能修護和舒緩肌膚，抗敏感，適合肌膚疲憊或敏感時使用，讓肌膚更健康、更有彈性。",
+    "price": "0",
+    "note": "價錢已經包含面膜袋",
+    "stock": 100,
+    "categoryId": "cat-mask",
+    "imageUrl": "/images/008.png",
+    "options": [
+      {
+        "quantity": 100,
+        "price": 20,
+        "unit": 1,
+        "label": "100片",
+        "priceLabel": "$20@1"
+      },
+      {
+        "quantity": 200,
+        "price": 18,
+        "unit": 1,
+        "label": "200片",
+        "priceLabel": "$18@1"
+      },
+      {
+        "quantity": 300,
+        "price": 16,
+        "unit": 1,
+        "label": "300片",
+        "priceLabel": "$16@1"
+      },
+      {
+        "quantity": 400,
+        "price": 14,
+        "unit": 1,
+        "label": "400片",
+        "priceLabel": "$14@1"
+      },
+      {
+        "quantity": 500,
+        "price": 12,
+        "unit": 1,
+        "label": "500片",
+        "priceLabel": "$12@1"
+      }
+    ]
+  },
+  {
+    "id": "prod-009",
+    "code": "009",
+    "name": "蝸牛",
+    "nameEn": "保濕面膜",
+    "type": "蠶絲面膜",
+    "description": "蝸牛保濕面膜是一款富含蝸牛黏液萃取物的護膚產品，專為深層保濕、修護肌膚設計。蝸牛萃取物具有極佳的潤膚、修復和抗老功效，能幫助肌膚舒緩敏感、改善乾燥、淡化細紋，讓肌膚變得更光滑細嫩。適合乾燥、敏感、需要修護的肌膚。",
+    "price": "0",
+    "note": "價錢已經包含面膜袋",
+    "stock": 100,
+    "categoryId": "cat-mask",
+    "imageUrl": "/images/009.png",
+    "options": [
+      {
+        "quantity": 100,
+        "price": 20,
+        "unit": 1,
+        "label": "100片",
+        "priceLabel": "$20@1"
+      },
+      {
+        "quantity": 200,
+        "price": 18,
+        "unit": 1,
+        "label": "200片",
+        "priceLabel": "$18@1"
+      },
+      {
+        "quantity": 300,
+        "price": 16,
+        "unit": 1,
+        "label": "300片",
+        "priceLabel": "$16@1"
+      },
+      {
+        "quantity": 400,
+        "price": 14,
+        "unit": 1,
+        "label": "400片",
+        "priceLabel": "$14@1"
+      },
+      {
+        "quantity": 500,
+        "price": 12,
+        "unit": 1,
+        "label": "500片",
+        "priceLabel": "$12@1"
+      }
+    ]
+  },
+  {
+    "id": "prod-010",
+    "code": "010",
+    "name": "蘆薈",
+    "nameEn": "保濕面膜",
+    "type": "蠶絲面膜",
+    "description": "蘆薈保濕面膜是一款以蘆薈萃取物為主要成分的護膚產品，專為深層保濕和鎮靜肌膚設計。蘆薈具有極佳的保濕、舒緩和修復功效，能幫助肌膚對抗乾燥、敏感與泛紅，讓肌膚變得柔嫩水潤。適合乾燥、敏感、容易泛紅肌膚。",
+    "price": "0",
+    "note": "價錢已經包含面膜袋",
+    "stock": 100,
+    "categoryId": "cat-mask",
+    "imageUrl": "/images/010.png",
+    "options": [
+      {
+        "quantity": 100,
+        "price": 20,
+        "unit": 1,
+        "label": "100片",
+        "priceLabel": "$20@1"
+      },
+      {
+        "quantity": 200,
+        "price": 18,
+        "unit": 1,
+        "label": "200片",
+        "priceLabel": "$18@1"
+      },
+      {
+        "quantity": 300,
+        "price": 16,
+        "unit": 1,
+        "label": "300片",
+        "priceLabel": "$16@1"
+      },
+      {
+        "quantity": 400,
+        "price": 14,
+        "unit": 1,
+        "label": "400片",
+        "priceLabel": "$14@1"
+      },
+      {
+        "quantity": 500,
+        "price": 12,
+        "unit": 1,
+        "label": "500片",
+        "priceLabel": "$12@1"
+      }
+    ]
+  },
+  {
+    "id": "prod-011",
+    "code": "011",
+    "name": "胎盤素",
+    "nameEn": "保濕面膜",
+    "type": "蠶絲面膜",
+    "description": "胎盤素保濕面膜是一款以胎盤素為主要成分的護膚產品，專為深層保濕與肌膚修復設計。胎盤素富含營養和活性成分，能促進肌膚細胞新陳代謝，加強肌膚彈性與光澤，同時提供持久滋潤。適合乾燥、老化肌膚、需要修復和滋潤的肌膚。",
+    "price": "0",
+    "note": "價錢已經包含面膜袋",
+    "stock": 100,
+    "categoryId": "cat-mask",
+    "imageUrl": "/images/011.png",
+    "options": [
+      {
+        "quantity": 100,
+        "price": 20,
+        "unit": 1,
+        "label": "100片",
+        "priceLabel": "$20@1"
+      },
+      {
+        "quantity": 200,
+        "price": 18,
+        "unit": 1,
+        "label": "200片",
+        "priceLabel": "$18@1"
+      },
+      {
+        "quantity": 300,
+        "price": 16,
+        "unit": 1,
+        "label": "300片",
+        "priceLabel": "$16@1"
+      },
+      {
+        "quantity": 400,
+        "price": 14,
+        "unit": 1,
+        "label": "400片",
+        "priceLabel": "$14@1"
+      },
+      {
+        "quantity": 500,
+        "price": 12,
+        "unit": 1,
+        "label": "500片",
+        "priceLabel": "$12@1"
+      }
+    ]
+  },
+  {
+    "id": "prod-012",
+    "code": "012",
+    "name": "黏多醣",
+    "nameEn": "保濕面膜",
+    "type": "蠶絲面膜",
+    "description": "黏多醣保濕面膜是一款專注於深層補水與鎖水的護膚產品，以天然黏多醣成分為主要特色。黏多醣具有卓越的保濕和舒緩作用，能幫助肌膚形成水分屏障，改善乾燥和緊繃感，讓肌膚持久水潤柔嫩。此外，黏多醣還具有抗糖化的功效，能幫助抵抗肌膚因糖化反應引起的老化跡象，維持肌膚的年輕彈性與光澤。適合乾燥、敏感、需要強化水分屏障的肌膚。",
+    "price": "0",
+    "note": "價錢已經包含面膜袋",
+    "stock": 100,
+    "categoryId": "cat-mask",
+    "imageUrl": "/images/012.png",
+    "options": [
+      {
+        "quantity": 100,
+        "price": 20,
+        "unit": 1,
+        "label": "100片",
+        "priceLabel": "$20@1"
+      },
+      {
+        "quantity": 200,
+        "price": 18,
+        "unit": 1,
+        "label": "200片",
+        "priceLabel": "$18@1"
+      },
+      {
+        "quantity": 300,
+        "price": 16,
+        "unit": 1,
+        "label": "300片",
+        "priceLabel": "$16@1"
+      },
+      {
+        "quantity": 400,
+        "price": 14,
+        "unit": 1,
+        "label": "400片",
+        "priceLabel": "$14@1"
+      },
+      {
+        "quantity": 500,
+        "price": 12,
+        "unit": 1,
+        "label": "500片",
+        "priceLabel": "$12@1"
+      }
+    ]
+  },
+  {
+    "id": "prod-013",
+    "code": "013",
+    "name": "透明質酸",
+    "nameEn": "保濕面膜",
+    "type": "蠶絲面膜",
+    "description": "透明質酸保濕面膜是一款以高純度透明質酸為主要成分的護膚產品，專為深層補水、提升肌膚水潤感設計。它能迅速為肌膚補充大量水分，改善乾燥、緊繃和缺水狀況，使肌膚柔嫩光滑，展現自然光澤。這款面膜適合乾燥、敏感或需要强效保濕的肌膚，有助於打造水光肌膚。",
+    "price": "0",
+    "note": "價錢已經包含面膜袋",
+    "stock": 100,
+    "categoryId": "cat-mask",
+    "imageUrl": "/images/013.png",
+    "options": [
+      {
+        "quantity": 100,
+        "price": 20,
+        "unit": 1,
+        "label": "100片",
+        "priceLabel": "$20@1"
+      },
+      {
+        "quantity": 200,
+        "price": 18,
+        "unit": 1,
+        "label": "200片",
+        "priceLabel": "$18@1"
+      },
+      {
+        "quantity": 300,
+        "price": 16,
+        "unit": 1,
+        "label": "300片",
+        "priceLabel": "$16@1"
+      },
+      {
+        "quantity": 400,
+        "price": 14,
+        "unit": 1,
+        "label": "400片",
+        "priceLabel": "$14@1"
+      },
+      {
+        "quantity": 500,
+        "price": 12,
+        "unit": 1,
+        "label": "500片",
+        "priceLabel": "$12@1"
+      }
+    ]
+  },
+  {
+    "id": "prod-014",
+    "code": "014",
+    "name": "海藻",
+    "nameEn": "保濕面膜",
+    "type": "蠶絲面膜",
+    "description": "海藻保濕面膜是一款以海藻提取物為主要成分的護膚產品，專為深層滋潤和修復肌膚設計。海藻富含多種礦物質、維生素和抗氧化成分，能有效補充水分，改善乾燥與緊繃感，同時幫助肌膚平衡油脂、舒緩敏感。適合乾燥、敏感、容易紅腫或需要修護的肌膚類型。",
+    "price": "0",
+    "note": "價錢已經包含面膜袋",
+    "stock": 100,
+    "categoryId": "cat-mask",
+    "imageUrl": "/images/014.png",
+    "options": [
+      {
+        "quantity": 100,
+        "price": 20,
+        "unit": 1,
+        "label": "100片",
+        "priceLabel": "$20@1"
+      },
+      {
+        "quantity": 200,
+        "price": 18,
+        "unit": 1,
+        "label": "200片",
+        "priceLabel": "$18@1"
+      },
+      {
+        "quantity": 300,
+        "price": 16,
+        "unit": 1,
+        "label": "300片",
+        "priceLabel": "$16@1"
+      },
+      {
+        "quantity": 400,
+        "price": 14,
+        "unit": 1,
+        "label": "400片",
+        "priceLabel": "$14@1"
+      },
+      {
+        "quantity": 500,
+        "price": 12,
+        "unit": 1,
+        "label": "500片",
+        "priceLabel": "$12@1"
+      }
+    ]
+  },
+  {
+    "id": "prod-015",
+    "code": "015",
+    "name": "牛奶",
+    "nameEn": "抗衰老/抗皺面膜",
+    "type": "蠶絲面膜",
+    "description": "牛奶抗皺面膜是一款以牛奶提取物為主要成分的護膚產品，專為抗老化和緊緻肌膚設計。牛奶富含蛋白質、乳脂和多種維生素，能深層滋養肌膚，淡化細紋，增加肌膚彈性，讓肌膚看起來年輕細膩。適合成熟、想抗老、需要緊緻肌膚的人士。",
+    "price": "0",
+    "note": "價錢已經包含面膜袋",
+    "stock": 100,
+    "categoryId": "cat-mask",
+    "imageUrl": "/images/015.png",
+    "options": [
+      {
+        "quantity": 100,
+        "price": 20,
+        "unit": 1,
+        "label": "100片",
+        "priceLabel": "$20@1"
+      },
+      {
+        "quantity": 200,
+        "price": 18,
+        "unit": 1,
+        "label": "200片",
+        "priceLabel": "$18@1"
+      },
+      {
+        "quantity": 300,
+        "price": 16,
+        "unit": 1,
+        "label": "300片",
+        "priceLabel": "$16@1"
+      },
+      {
+        "quantity": 400,
+        "price": 14,
+        "unit": 1,
+        "label": "400片",
+        "priceLabel": "$14@1"
+      },
+      {
+        "quantity": 500,
+        "price": 12,
+        "unit": 1,
+        "label": "500片",
+        "priceLabel": "$12@1"
+      }
+    ]
+  },
+  {
+    "id": "prod-016",
+    "code": "016",
+    "name": "蜂膠",
+    "nameEn": "抗衰老/抗皺面膜",
+    "type": "蠶絲面膜",
+    "description": "蜂膠抗皺面膜是一款以蜂膠為主要成分的高效抗老護膚產品。蜂膠富含抗氧化物、抗炎成分和維生素，能幫助肌膚抵抗自由基，減少細紋和皺紋，提升肌膚緊緻度，讓肌膚看起來更年輕、柔嫩。適合成熟肌膚、需要抗老、緊緻肌膚及細紋明顯的肌膚。",
+    "price": "0",
+    "note": "價錢已經包含面膜袋",
+    "stock": 100,
+    "categoryId": "cat-mask",
+    "imageUrl": "/images/016.png",
+    "options": [
+      {
+        "quantity": 100,
+        "price": 20,
+        "unit": 1,
+        "label": "100片",
+        "priceLabel": "$20@1"
+      },
+      {
+        "quantity": 200,
+        "price": 18,
+        "unit": 1,
+        "label": "200片",
+        "priceLabel": "$18@1"
+      },
+      {
+        "quantity": 300,
+        "price": 16,
+        "unit": 1,
+        "label": "300片",
+        "priceLabel": "$16@1"
+      },
+      {
+        "quantity": 400,
+        "price": 14,
+        "unit": 1,
+        "label": "400片",
+        "priceLabel": "$14@1"
+      },
+      {
+        "quantity": 500,
+        "price": 12,
+        "unit": 1,
+        "label": "500片",
+        "priceLabel": "$12@1"
+      }
+    ]
+  },
+  {
+    "id": "prod-017",
+    "code": "017",
+    "name": "魚子",
+    "nameEn": "抗衰老/抗皺面膜",
+    "type": "蠶絲面膜",
+    "description": "魚子抗皺面膜是一款以魚子提取物為主要成分的高效抗老護膚產品。魚子富含蛋白質、脂肪酸和抗氧化物，能深入滋養肌膚，淡化細紋與皺紋，提升肌膚彈性與緊緻度，讓肌膚恢復年輕光澤。適合成熟肌膚、需要抗老、提拉緊緻的肌膚。",
+    "price": "0",
+    "note": "價錢已經包含面膜袋",
+    "stock": 100,
+    "categoryId": "cat-mask",
+    "imageUrl": "/images/017.png",
+    "options": [
+      {
+        "quantity": 100,
+        "price": 20,
+        "unit": 1,
+        "label": "100片",
+        "priceLabel": "$20@1"
+      },
+      {
+        "quantity": 200,
+        "price": 18,
+        "unit": 1,
+        "label": "200片",
+        "priceLabel": "$18@1"
+      },
+      {
+        "quantity": 300,
+        "price": 16,
+        "unit": 1,
+        "label": "300片",
+        "priceLabel": "$16@1"
+      },
+      {
+        "quantity": 400,
+        "price": 14,
+        "unit": 1,
+        "label": "400片",
+        "priceLabel": "$14@1"
+      },
+      {
+        "quantity": 500,
+        "price": 12,
+        "unit": 1,
+        "label": "500片",
+        "priceLabel": "$12@1"
+      }
+    ]
+  },
+  {
+    "id": "prod-018",
+    "code": "018",
+    "name": "燕窩",
+    "nameEn": "抗衰老/抗皺面膜",
+    "type": "蠶絲面膜",
+    "description": "燕窩抗衰老面膜將珍貴的燕窩萃取物，為肌膚帶來奢華呵護。燕窩富含糖蛋白及表皮生長因子（EGF），科學證實能迅速修復皮膚細胞，促進肌膚再生，使肌膚回復光滑細緻和良好彈性。適合需要抗老化、提拉緊緻以及改善細紋的成熟肌膚，讓肌膚重現年輕光彩。",
+    "price": "0",
+    "note": "價錢已經包含面膜袋",
+    "stock": 100,
+    "categoryId": "cat-mask",
+    "imageUrl": "/images/018.png",
+    "options": [
+      {
+        "quantity": 100,
+        "price": 20,
+        "unit": 1,
+        "label": "100片",
+        "priceLabel": "$20@1"
+      },
+      {
+        "quantity": 200,
+        "price": 18,
+        "unit": 1,
+        "label": "200片",
+        "priceLabel": "$18@1"
+      },
+      {
+        "quantity": 300,
+        "price": 16,
+        "unit": 1,
+        "label": "300片",
+        "priceLabel": "$16@1"
+      },
+      {
+        "quantity": 400,
+        "price": 14,
+        "unit": 1,
+        "label": "400片",
+        "priceLabel": "$14@1"
+      },
+      {
+        "quantity": 500,
+        "price": 12,
+        "unit": 1,
+        "label": "500片",
+        "priceLabel": "$12@1"
+      }
+    ]
+  },
+  {
+    "id": "prod-019",
+    "code": "019",
+    "name": "蠶絲",
+    "nameEn": "抗衰老/抗皺面膜",
+    "type": "蠶絲面膜",
+    "description": "蠶絲抗皺面膜是一款高效抗老護膚產品，富含天然蠶絲蛋白、多肽和氨基酸，具有深層滋養和緊緻肌膚的功效。它能有效改善細紋和皺紋，提升肌膚彈性和光滑度，讓肌膚恢復年輕緊緻的光彩。適合成熟肌膚或有細紋、皺紋需要改善的人群，幫助肌膚保持緊緻、彈性和年輕光彩，展現光滑緊緻的肌膚狀態。",
+    "price": "0",
+    "note": "價錢已經包含面膜袋",
+    "stock": 100,
+    "categoryId": "cat-mask",
+    "imageUrl": "/images/019.png",
+    "options": [
+      {
+        "quantity": 100,
+        "price": 20,
+        "unit": 1,
+        "label": "100片",
+        "priceLabel": "$20@1"
+      },
+      {
+        "quantity": 200,
+        "price": 18,
+        "unit": 1,
+        "label": "200片",
+        "priceLabel": "$18@1"
+      },
+      {
+        "quantity": 300,
+        "price": 16,
+        "unit": 1,
+        "label": "300片",
+        "priceLabel": "$16@1"
+      },
+      {
+        "quantity": 400,
+        "price": 14,
+        "unit": 1,
+        "label": "400片",
+        "priceLabel": "$14@1"
+      },
+      {
+        "quantity": 500,
+        "price": 12,
+        "unit": 1,
+        "label": "500片",
+        "priceLabel": "$12@1"
+      }
+    ]
+  },
+  {
+    "id": "prod-020",
+    "code": "020",
+    "name": "酒紅素",
+    "nameEn": "抗衰老/抗皺面膜",
+    "type": "蠶絲面膜",
+    "description": "酒紅素抗皺面膜是一款以酒紅素為主要成分的高效抗老產品。酒紅素富含抗氧化物，能緩解自由基對肌膚的傷害，有效抑制皺紋和細紋的形成，促進肌膚緊緻與彈性恢復。此面膜還幫助提亮膚色，改善暗沉，讓肌膚展現年輕、光滑且富有彈性的光彩。特別適合成熟肌膚、需要抗老、緊緻或淡化皺紋的人群。也適合肌膚因環境壓力或老化跡象而需要修復與保肌的人士，幫助肌膚展現年輕亮麗的效果。",
+    "price": "0",
+    "note": "價錢已經包含面膜袋",
+    "stock": 100,
+    "categoryId": "cat-mask",
+    "imageUrl": "/images/020.png",
+    "options": [
+      {
+        "quantity": 100,
+        "price": 20,
+        "unit": 1,
+        "label": "100片",
+        "priceLabel": "$20@1"
+      },
+      {
+        "quantity": 200,
+        "price": 18,
+        "unit": 1,
+        "label": "200片",
+        "priceLabel": "$18@1"
+      },
+      {
+        "quantity": 300,
+        "price": 16,
+        "unit": 1,
+        "label": "300片",
+        "priceLabel": "$16@1"
+      },
+      {
+        "quantity": 400,
+        "price": 14,
+        "unit": 1,
+        "label": "400片",
+        "priceLabel": "$14@1"
+      },
+      {
+        "quantity": 500,
+        "price": 12,
+        "unit": 1,
+        "label": "500片",
+        "priceLabel": "$12@1"
+      }
+    ]
+  },
+  {
+    "id": "prod-021",
+    "code": "021",
+    "name": "珍珠蔘蜜",
+    "nameEn": "抗衰老/抗皺面膜",
+    "type": "蠶絲面膜",
+    "description": "珍珠蔘蜜抗皺面膜是一款結合珍珠粉、蔘提取物和蜂蜜的高效抗老護膚產品。珍珠粉能提亮肌膚、改善暗沉，蔘提取物具有滋養和抗老的作用，蜂蜜則提供深層保濕和修復效果。這款面膜專為淡化細紋、提升肌膚彈性、恢復年輕光采而設計。特別適合成熟肌膚、需要抗老、淡化細紋或改善暗沉膚色的肌膚。也非常適合肌膚疲憊、缺乏光澤或需深層修護的人群，幫助重現肌膚年輕亮麗。",
+    "price": "0",
+    "note": "價錢已經包含面膜袋",
+    "stock": 100,
+    "categoryId": "cat-mask",
+    "imageUrl": "/images/021.png",
+    "options": [
+      {
+        "quantity": 100,
+        "price": 20,
+        "unit": 1,
+        "label": "100片",
+        "priceLabel": "$20@1"
+      },
+      {
+        "quantity": 200,
+        "price": 18,
+        "unit": 1,
+        "label": "200片",
+        "priceLabel": "$18@1"
+      },
+      {
+        "quantity": 300,
+        "price": 16,
+        "unit": 1,
+        "label": "300片",
+        "priceLabel": "$16@1"
+      },
+      {
+        "quantity": 400,
+        "price": 14,
+        "unit": 1,
+        "label": "400片",
+        "priceLabel": "$14@1"
+      },
+      {
+        "quantity": 500,
+        "price": 12,
+        "unit": 1,
+        "label": "500片",
+        "priceLabel": "$12@1"
+      }
+    ]
+  },
+  {
+    "id": "prod-022",
+    "code": "022",
+    "name": "白睡蓮花",
+    "nameEn": "緊緻面膜",
+    "type": "蠶絲面膜",
+    "description": "Luna Pro 的皇牌產品，採用了珍貴的白睡蓮花萃取物和海生素作為主要成分。白睡蓮花萃取物具有強大的抗氧化能力，可以深層淨化膚質、緊緻皮膚、撫平紋理與細紋；海生素則是來自海洋的活性成分，富含多種礦物質和蛋白質，有助於修復和強化肌膚屏障。適合成熟肌膚、需要抗老化、提拉緊緻的肌膚，特別是希望改善細紋、提升輪廓線和肌膚緊實度的人群。",
+    "price": "0",
+    "note": "價錢已經包含面膜袋",
+    "stock": 100,
+    "categoryId": "cat-mask",
+    "imageUrl": "/images/022.png",
+    "options": [
+      {
+        "quantity": 100,
+        "price": 20,
+        "unit": 1,
+        "label": "100片",
+        "priceLabel": "$20@1"
+      },
+      {
+        "quantity": 200,
+        "price": 18,
+        "unit": 1,
+        "label": "200片",
+        "priceLabel": "$18@1"
+      },
+      {
+        "quantity": 300,
+        "price": 16,
+        "unit": 1,
+        "label": "300片",
+        "priceLabel": "$16@1"
+      },
+      {
+        "quantity": 400,
+        "price": 14,
+        "unit": 1,
+        "label": "400片",
+        "priceLabel": "$14@1"
+      },
+      {
+        "quantity": 500,
+        "price": 12,
+        "unit": 1,
+        "label": "500片",
+        "priceLabel": "$12@1"
+      }
+    ]
+  },
+  {
+    "id": "prod-023",
+    "code": "023",
+    "name": "茶樹",
+    "nameEn": "暗瘡消炎/排毒面膜",
+    "type": "蠶絲面膜",
+    "description": "茶樹暗瘡消炎面膜是一款專為油性肌膚和暗瘡肌膚設計的護膚產品，富含茶樹油和天然植物成分，具有抗菌、消炎、控油和排毒的功效。它能幫助減少暗瘡和粉刺，清潔毛孔，控制油脂分泌，同時舒緩肌膚紅腫和不適，讓肌膚更清爽、健康。特別適合油性、暗瘡及容易出油、毛孔粗大的肌膚。也適合有肌膚炎症或需要深層清潔和排毒的肌膚使用，幫助肌膚保持清爽、健康。",
+    "price": "0",
+    "note": "價錢已經包含面膜袋",
+    "stock": 100,
+    "categoryId": "cat-mask",
+    "imageUrl": "/images/023.png",
+    "options": [
+      {
+        "quantity": 100,
+        "price": 20,
+        "unit": 1,
+        "label": "100片",
+        "priceLabel": "$20@1"
+      },
+      {
+        "quantity": 200,
+        "price": 18,
+        "unit": 1,
+        "label": "200片",
+        "priceLabel": "$18@1"
+      },
+      {
+        "quantity": 300,
+        "price": 16,
+        "unit": 1,
+        "label": "300片",
+        "priceLabel": "$16@1"
+      },
+      {
+        "quantity": 400,
+        "price": 14,
+        "unit": 1,
+        "label": "400片",
+        "priceLabel": "$14@1"
+      },
+      {
+        "quantity": 500,
+        "price": 12,
+        "unit": 1,
+        "label": "500片",
+        "priceLabel": "$12@1"
+      }
+    ]
+  },
+  {
+    "id": "prod-024",
+    "code": "024",
+    "name": "葉綠素",
+    "nameEn": "暗瘡消炎/排毒面膜",
+    "type": "蠶絲面膜",
+    "description": "葉綠素排毒面膜是一款以天然葉綠素為主要成分的護膚產品，專為舒緩肌膚、抗炎和排毒而設計。葉綠素具有強大的抗氧化、抗炎和促進皮膚修復的功效，幫助改善肌膚敏感、紅腫、暗沉和毛孔堵塞問題。使用後，肌膚變得清爽、光滑，恢復健康光彩。特別適合敏感肌、油性肌膚及需要深層清潔、抗炎和排毒的肌膚。也適合膚色暗沉、毛孔粗大或易膚紅、發炎狀況肌膚使用，協助肌膚恢復健康光采。",
+    "price": "0",
+    "note": "價錢已經包含面膜袋",
+    "stock": 100,
+    "categoryId": "cat-mask",
+    "imageUrl": "/images/024.png",
+    "options": [
+      {
+        "quantity": 100,
+        "price": 20,
+        "unit": 1,
+        "label": "100片",
+        "priceLabel": "$20@1"
+      },
+      {
+        "quantity": 200,
+        "price": 18,
+        "unit": 1,
+        "label": "200片",
+        "priceLabel": "$18@1"
+      },
+      {
+        "quantity": 300,
+        "price": 16,
+        "unit": 1,
+        "label": "300片",
+        "priceLabel": "$16@1"
+      },
+      {
+        "quantity": 400,
+        "price": 14,
+        "unit": 1,
+        "label": "400片",
+        "priceLabel": "$14@1"
+      },
+      {
+        "quantity": 500,
+        "price": 12,
+        "unit": 1,
+        "label": "500片",
+        "priceLabel": "$12@1"
+      }
+    ]
+  },
+  {
+    "id": "prod-025",
+    "code": "025",
+    "name": "活炭酸",
+    "nameEn": "暗瘡消炎/排毒面膜",
+    "type": "蠶絲面膜",
+    "description": "活炭酸暗瘡消炎面膜是一款專為油性肌膚、暗瘡肌和毛孔問題設計的深層清潔產品。富含活性炭與多種植物精華，能有效吸附毛孔中的油脂、污染物及毒素，幫助控制油脂分泌，消炎止癢，預防暗瘡形成。同時，具有抗菌和修復功效，舒緩肌膚不適，讓肌膚更加清爽、細膩、健康。非常適合油性、暗瘡、毛孔粗大及容易出油的肌膚。也適合肌膚有炎症、敏感或需要深層清潔、控油排毒的使用者，有助於打造清爽淨亮、健康無瑕的肌膚狀態。",
+    "price": "0",
+    "note": "價錢已經包含面膜袋",
+    "stock": 100,
+    "categoryId": "cat-mask",
+    "imageUrl": "/images/025.png",
+    "options": [
+      {
+        "quantity": 100,
+        "price": 20,
+        "unit": 1,
+        "label": "100片",
+        "priceLabel": "$20@1"
+      },
+      {
+        "quantity": 200,
+        "price": 18,
+        "unit": 1,
+        "label": "200片",
+        "priceLabel": "$18@1"
+      },
+      {
+        "quantity": 300,
+        "price": 16,
+        "unit": 1,
+        "label": "300片",
+        "priceLabel": "$16@1"
+      },
+      {
+        "quantity": 400,
+        "price": 14,
+        "unit": 1,
+        "label": "400片",
+        "priceLabel": "$14@1"
+      },
+      {
+        "quantity": 500,
+        "price": 12,
+        "unit": 1,
+        "label": "500片",
+        "priceLabel": "$12@1"
+      }
+    ]
+  },
+  {
+    "id": "prod-026",
+    "code": "026",
+    "name": "積雪草",
+    "nameEn": "舒緩面膜",
+    "type": "蠶絲面膜",
+    "description": "積雪草舒緩蠶絲面膜是一款結合積雪草與復活草萃取物，專為舒緩肌膚、修復和深層保濕而設計的高效面膜。\n適合乾燥敏感、需要修復與深層保濕的肌膚，讓肌膚變得柔嫩、光滑且富有彈性。",
+    "price": "0",
+    "note": "價錢已經包含面膜袋",
+    "stock": 100,
+    "categoryId": "cat-mask",
+    "imageUrl": "/images/026.png",
+    "options": [
+      {
+        "quantity": 100,
+        "price": 20,
+        "unit": 1,
+        "label": "100片",
+        "priceLabel": "$20@1"
+      },
+      {
+        "quantity": 200,
+        "price": 18,
+        "unit": 1,
+        "label": "200片",
+        "priceLabel": "$18@1"
+      },
+      {
+        "quantity": 300,
+        "price": 16,
+        "unit": 1,
+        "label": "300片",
+        "priceLabel": "$16@1"
+      },
+      {
+        "quantity": 400,
+        "price": 14,
+        "unit": 1,
+        "label": "400片",
+        "priceLabel": "$14@1"
+      },
+      {
+        "quantity": 500,
+        "price": 12,
+        "unit": 1,
+        "label": "500片",
+        "priceLabel": "$12@1"
+      }
+    ]
+  },
+  {
+    "id": "prod-027",
+    "code": "027",
+    "name": "蘆薈",
+    "nameEn": "爽膚水",
+    "type": "爽膚水",
+    "description": "蘆薈爽膚水是一款以天然蘆薈萃取物為主要成分的滋潤型爽膚產品。它具有深層補水、舒緩肌膚、收斂毛孔和抗炎的功效，適合所有膚質，特別是敏感肌和乾燥肌使用。使用後能幫助平衡肌膚水油，鎮定肌膚紅腫，讓肌膚感覺柔嫩、清爽，為後續保養打下良好基礎。",
+    "price": "50",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-toner",
+    "imageUrl": "/images/027.png"
+  },
+  {
+    "id": "prod-028",
+    "code": "028",
+    "name": "玫瑰",
+    "nameEn": "爽膚水",
+    "type": "爽膚水",
+    "description": "玫瑰爽膚水是一款以天然玫瑰萃取物為主要成分的滋潤型爽膚產品。除了具有舒緩肌膚、補充水分和收斂毛孔的功效外，還具有美白提亮的效果。玫瑰中的天然抗氧化成分能幫助減少暗沈與色素沉著，均勻膚色，增強肌膚光澤。長期使用可改善暗沉、提亮膚色，讓肌膚看起來更加明亮、健康和有光彩，打造晶瑩剔透的美肌效果。",
+    "price": "50",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-toner",
+    "imageUrl": "/images/028.png"
+  },
+  {
+    "id": "prod-029",
+    "code": "029",
+    "name": "茉莉",
+    "nameEn": "爽膚水",
+    "type": "爽膚水",
+    "description": "茉莉爽膚水以天然茉莉花萃取物為主要成分，具有保濕、舒緩肌膚和提亮膚色的效果。它能幫助平衡水油、鎮定敏感肌膚，同時增強肌膚光澤，使肌膚感覺柔嫩、清新。長期使用也可以提亮膚色，讓肌膚更健康、亮麗，是打造輕盈、光滑肌膚的理想選擇。",
+    "price": "50",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-toner",
+    "imageUrl": "/images/029.png"
+  },
+  {
+    "id": "prod-030",
+    "code": "030",
+    "name": "香橙",
+    "nameEn": "爽膚水",
+    "type": "爽膚水",
+    "description": "香橙爽膚水以天然香橙提取物為核心成分，具有深層補水、提亮膚色和提振精神的功效。它可以幫助平衡肌膚水油，舒緩敏感，增強肌膚光澤，使肌膚感覺清新柔嫩。長期使用，能改善暗沉膚色，讓肌膚更加亮麗健康，是打造清新活力肌膚的理想選擇。",
+    "price": "50",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-toner",
+    "imageUrl": "/images/030.png"
+  },
+  {
+    "id": "prod-031",
+    "code": "031",
+    "name": "青瓜",
+    "nameEn": "爽膚水",
+    "type": "爽膚水",
+    "description": "青瓜爽膚水以天然青瓜萃取物為主要成分，具有深層補水、舒緩肌膚、收斂毛孔和提亮膚色的功效。它能幫助平衡油脂，鎮靜敏感肌膚，改善肌膚紅腫及不適感，使肌膚感覺清爽、柔嫩和有光澤。長期使用還可以提亮膚色，讓肌膚恢復健康亮麗，是肌膚清爽舒適的理想選擇。",
+    "price": "50",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-toner",
+    "imageUrl": "/images/031.png"
+  },
+  {
+    "id": "prod-032",
+    "code": "032",
+    "name": "蜂膠",
+    "nameEn": "爽膚水",
+    "type": "爽膚水",
+    "description": "蜂膠爽膚水以天然蜂膠為主要成分，具有抗氧化、抗炎及深層保濕的功效。它能幫助減少細紋和皺紋，提升肌膚彈性，使肌膚更加緊緻光滑。同時，舒緩敏感、鎮靜肌膚，改善肌膚老化跡象，讓肌膚恢復年輕彈潤，是抗老保養的理想選擇。",
+    "price": "50",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-toner",
+    "imageUrl": "/images/032.png"
+  },
+  {
+    "id": "prod-033",
+    "code": "033",
+    "name": "藍甘菊",
+    "nameEn": "爽膚水",
+    "type": "爽膚水",
+    "description": "藍甘菊爽膚水以天然藍甘菊提取物為主要成分，具有舒緩鎮靜、深層保濕和抗炎的功效。它可以幫助舒緩敏感肌膚、減少紅腫和刺激，使肌膚感覺柔嫩、清新。長期使用還能提升肌膚的鎮定能力，改善肌膚不適，讓肌膚更加平衡、健康，展現自然光澤。",
+    "price": "50",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-toner",
+    "imageUrl": "/images/033.png"
+  },
+  {
+    "id": "prod-034",
+    "code": "034",
+    "name": "骨膠原",
+    "nameEn": "爽膚水",
+    "type": "爽膚水",
+    "description": "骨膠原爽膚水融合高純度膠原蛋白與美白成分，能深層滋養肌膚，增加彈性並提亮膚色。它幫助改善暗沉和膚色不均，使肌膚更柔嫩光滑，同時緊緻肌膚輪廓，延緩老化跡象。長期使用，讓肌膚呈現年輕、明亮、健康的自然光采，是提升肌膚保濕與美白的理想選擇。",
+    "price": "50",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-toner",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-035",
+    "code": "035",
+    "name": "薰衣草",
+    "nameEn": "爽膚水",
+    "type": "爽膚水",
+    "description": "薰衣草爽膚水以天然薰衣草萃取物為主要成分，具有美白提亮、舒緩鎮靜和深層保濕的功效。它可以幫助改善肌膚暗沉、均勻膚色，讓肌膚更加清新、光亮。薰衣草的抗氧化作用也能抵抗自由基，延緩肌膚老化，使用後肌膚感覺柔嫩、舒適，展現自然健康的光彩，是追求亮白肌膚的理想選擇。",
+    "price": "50",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-toner",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-036",
+    "code": "036",
+    "name": "白桑菊",
+    "nameEn": "爽膚水",
+    "type": "爽膚水",
+    "description": "白桑菊爽膚水以白桑葉和菊花提取物為主要成分，具有深層保濕、抗氧化、舒緩肌膚和提亮膚色的功效。它能幫助改善肌膚暗沉、淡化色素沉著，讓肌膚更加明亮細膩。同時，具有鎮靜和舒緩敏感肌膚的作用，使肌膚感覺柔嫩、清新，展現自然光彩，是改善肌膚暗沉與提亮膚色的理想選擇。",
+    "price": "50",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-toner",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-037",
+    "code": "037",
+    "name": "洋甘菊",
+    "nameEn": "爽膚水",
+    "type": "爽膚水",
+    "description": "洋甘菊爽膚水以純天然洋甘菊提取物為主要成分，具有舒緩鎮靜、抗炎抗敏和深層保濕的功效。它能幫助緩解肌膚紅腫、敏感和刺激，改善肌膚不適，使肌膚感覺柔嫩、清新。長期使用能增強肌膚的天然屏障，讓肌膚保持平衡與健康，適合敏感肌或需要舒緩修護的肌膚使用。",
+    "price": "50",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-toner",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-038",
+    "code": "038",
+    "name": "葡萄籽",
+    "nameEn": "爽膚水",
+    "type": "爽膚水",
+    "description": "葡萄籽爽膚水以天然葡萄籽提取物為主要成分，具有抗氧化、深層補水和提亮膚色的功效。它能幫助防止自由基傷害，延緩肌膚老化，改善暗沉，讓肌膚更加明亮細膩。使用後，肌膚感覺柔嫩、清新，提升整體光澤與彈性，是抗老保養和護膚修復的理想選擇。",
+    "price": "50",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-toner",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-039",
+    "code": "039",
+    "name": "純氧份",
+    "nameEn": "爽膚水",
+    "type": "爽膚水",
+    "description": "純氧份爽膚水是一款富含純氧氣的保濕產品，旨在深層補水、提升肌膚氧合能力，讓肌膚充滿活力與光澤。它能促進細胞新陳代謝，改善暗沉和疲憊肌膚，使肌膚感覺柔嫩、清新、富有彈性。長期使用有助於提升肌膚的天然屏障，打造健康亮麗的膚質，是追求亮白、彈潤肌膚的理想之選。",
+    "price": "50",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-toner",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-040",
+    "code": "040",
+    "name": "海洋注氧",
+    "nameEn": "爽膚水",
+    "type": "爽膚水",
+    "description": "海洋注氧爽膚水以海洋提取物和豐富的氧氣為主要成分，旨在深層補水、促進肌膚氧合，提升肌膚活力與光彩。它能有效改善肌膚暗沉、疲憊狀態，讓肌膚感覺清新、柔嫩、充滿彈性。長期使用能提升自然保濕屏障，打造水潤亮澤、年輕健康的肌膚，是追求健康光采肌膚的理想選擇。",
+    "price": "50",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-toner",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-041",
+    "code": "041",
+    "name": "白睡蓮花",
+    "nameEn": "緊緻爽膚水",
+    "type": "爽膚水",
+    "description": "白睡蓮花爽膚水是 Luna Pro 的皇牌產品，採用珍貴的白睡蓮花萃取物與海生素為主要成分，專為緊緻、抗皺和保濕設計。白睡蓮花萃取物具有強大的抗氧化能力，可以深層淨化肌膚、緊緻肌膚，並撫平紋理與細紋。而海生素則來自海洋，富含礦物質與蛋白質，有助於修復肌膚屏障並提供長效保濕。此產品能有效對抗歲月痕跡，讓肌膚更加緊緻光滑；同時提供持久水潤，改善肌膚彈性，促進細胞更新，恢復肌膚的彈性與光澤。經實驗證實，能降低成熟細胞脂肪堆積高達35%，幫助肌膚保持緊實；而持續使用8周，能提升下頜線條達1.9%，輪廓更清晰，全面幫助肌膚重拾緊緻與亮麗。",
+    "price": "50",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-toner",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-042",
+    "code": "042",
+    "name": "蘆薈",
+    "nameEn": "稀身質地",
+    "type": "精華液",
+    "description": "蘆薈精華液是一款以天然蘆薈提取物為主要成分的護膚產品，具有深層保濕、舒緩肌膚和修復肌膚屏障的功效。它能迅速補充肌膚所需水分，幫助緩解乾燥、敏感和紅腫，讓肌膚變得柔嫩、光滑且富有彈性。長期使用可以改善肌膚敏感狀況，提亮膚色，讓肌膚保持清新健康的自然光采，是肌膚保濕和修復的理想選擇。",
+    "price": "80",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-serum",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-043",
+    "code": "043",
+    "name": "玫瑰",
+    "nameEn": "稀身質地",
+    "type": "精華液",
+    "description": "玫瑰美白精華液是一款以天然玫瑰萃取物為核心成分的高效護膚產品，旨在提亮膚色、改善暗沉並均勻肌膚膚色。它富含抗氧化成分，能有效抵抗自由基，減少肌膚老化和色素沉著，讓肌膚重現光澤與柔嫩。細膩的質地易於吸收，能促進肌膚新陳代謝，提亮膚色，使肌膚更細膩、透亮。長期使用可改善膚質、增加肌膚彈性，展現健康亮麗的膚色，是一款兼具美白與保濕的明星精華液。",
+    "price": "80",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-serum",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-044",
+    "code": "044",
+    "name": "絲瓜",
+    "nameEn": "稀身質地",
+    "type": "精華液",
+    "description": "絲瓜精華液是一款以絲瓜提取物為主要成分的護膚產品，具有深層保濕、鎮靜舒緩和改善肌膚敏感的功效。絲瓜富含維生素、礦物質和天然保濕因子，能迅速為肌膚補充水分，緩解乾燥和泛紅，讓肌膚感覺柔嫩滑潤。同時，絲瓜具有抗氧化和抗炎作用，有助於修復受損肌膚屏障，改善敏感肌膚狀態。長期使用可提升肌膚彈性，亮澤肌膚，使肌膚恢復健康與自然光彩，適合乾燥、敏感及需要修護的肌膚使用。",
+    "price": "80",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-serum",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-045",
+    "code": "045",
+    "name": "佛手柑",
+    "nameEn": "稀身質地",
+    "type": "精華液",
+    "description": "佛手柑精華液是一款以天然佛手柑提取物為主要成分的護膚產品，具有亮白提亮、抗氧化和放鬆心情的功效。佛手柑富含維生素和抗氧化物，能有效改善肌膚暗沉、均勻膚色，增強肌膚光澤。其清新怡人的香氣也有放鬆心情、緩解壓力的作用。產品質地輕盈，易於吸收，能促進肌膚的新陳代謝，讓肌膚柔嫩細膩、充滿亮彩。同時，長期使用能改善膚色不均，展現健康、光亮的肌膚狀態。",
+    "price": "80",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-serum",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-046",
+    "code": "046",
+    "name": "薰衣草",
+    "nameEn": "稀身質地",
+    "type": "精華液",
+    "description": "薰衣草精華液是一款以天然薰衣草萃取物為主要成分的護膚產品，具有美白提亮、抗氧化和鎮靜肌膚的功效。薰衣草富含抗氧化成分，能有效改善暗沉膚色，均勻膚色，讓肌膚更明亮透亮。同時，薰衣草的鎮靜作用能舒緩肌膚敏感、紅腫，減少刺激反應，讓肌膚感覺柔嫩舒適。精華液質地輕盈，易於吸收，能促進肌膚的新陳代謝，長期使用能提亮膚色、改善暗沉，展現健康、光彩照人的肌膚效果。",
+    "price": "80",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-serum",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-047",
+    "code": "047",
+    "name": "藍甘菊",
+    "nameEn": "稀身質地",
+    "type": "精華液",
+    "description": "藍甘菊精華液是一款以天然藍甘菊萃取物為核心的護膚產品，具有舒緩鎮靜、抗炎抗敏和深層保濕的功效。藍甘菊富含抗氧化和抗炎成分，能有效緩解肌膚紅腫、敏感和刺激，幫助改善膚質，使肌膚感覺柔嫩、光滑。其強大的鎮靜作用能安撫疲憊、敏感肌膚，降低肌膚敏感反應，並提升肌膚的自然修復能力。質地細膩，易於吸收，長期使用能改善肌膚不適，讓肌膚恢復平衡，展現清新、健康的光彩，是敏感肌和需要修復護理的理想選擇。",
+    "price": "80",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-serum",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-048",
+    "code": "048",
+    "name": "骨膠原",
+    "nameEn": "美白精華液 (杰身質地)",
+    "type": "精華液",
+    "description": "骨膠原美白精華液是一款結合高純度膠原蛋白與美白成分的護膚產品，旨在深層滋養肌膚，提升彈性與亮澤度。它能有效改善膚色暗沉、肌膚不均，讓肌膚變得更加柔嫩、透亮。同時，膠原蛋白幫助肌膚恢復緊緻，淡化細紋，使肌膚看起來年輕彈潤。配合美白成分，能提亮膚色，改善暗沉，塑造健康亮麗的肌膚光彩。長期使用能提升肌膚彈性與光澤，是追求緊緻與美白雙重效果的理想選擇。",
+    "price": "90",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-serum",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-049",
+    "code": "049",
+    "name": "維他命C",
+    "nameEn": "美白精華液 (杰身質地)",
+    "type": "精華液",
+    "description": "維他命C美白精華液是一款以高濃度維他命C為主要成分的護膚產品，專為提亮膚色、淡化暗沉和抗氧化而設計。它能有效抵抗自由基，促進膠原蛋白生成，改善肌膚暗沉和色素沉著，使肌膚更加明亮、細膩且充滿彈性。質地輕盈，易於吸收，能深層淨化肌膚，提升肌膚的自然光澤，讓肌膚展現健康亮麗的光彩。長期使用，能有效改善肌膚老化跡象，塑造透亮、年輕的肌膚状態。",
+    "price": "90",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-serum",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-050",
+    "code": "050",
+    "name": "透明質酸",
+    "nameEn": "保濕精華液 (杰身質地)",
+    "type": "精華液",
+    "description": "透明質酸保濕精華液是一款以高純度透明質酸為主要成分的護膚產品，專為深層補水和長效鎖水設計。它能迅速滲透肌膚底層，提供豐富水分，改善乾燥、緊繃和缺水現象，讓肌膚變得柔嫩光滑、細膩有彈性。質地輕盈，易於吸收，長時間锁住水分，保持肌膚全天水潤亮澤。這款精華液適合所有肌膚類型，尤其是乾性或敏感肌，能有效提升肌膚的水潤度和彈性，讓肌膚展現健康光采的水光感。",
+    "price": "90",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-serum",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-051",
+    "code": "051",
+    "name": "牛奶",
+    "nameEn": "抗衰老/抗皺精華液 (杰身質地)",
+    "type": "精華液",
+    "description": "牛奶抗皺精華液是一款以天然牛奶萃取物為主要成分的高效抗老產品，專為淡化細紋、提升肌膚彈性而設計。富含蛋白質、維生素和脂肪酸，能深層滋養肌膚，促進細胞再生，改善肌膚鬆弛與皺紋。使用後肌膚變得柔嫩光滑，彈性增加，細紋減少，展現年輕亮麗的肌膚光彩。長期使用能有效抗老、延緩肌膚老化跡象，是提升肌膚緊緻度的理想選擇。",
+    "price": "90",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-serum",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-052",
+    "code": "052",
+    "name": "魚子",
+    "nameEn": "抗衰老/抗皺精華液 (杰身質地)",
+    "type": "精華液",
+    "description": "魚子抗皺精華液是一款以高純度魚子提取物為核心成分的抗老產品，專為淡化細紋、緊緻肌膚而設計。富含蛋白質、脂肪酸和抗氧化物，能深入肌膚底層，促進膠原蛋白合成，改善肌膚鬆弛與老化跡象。使用後肌膚變得更加光滑細膩，有彈性，皺紋減少，展現年輕緊緻的肌膚光彩。長期使用有效延緩肌膚老化，讓肌膚持續保持緊緻、彈潤和青春活力。",
+    "price": "90",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-serum",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-053",
+    "code": "053",
+    "name": "燕窩",
+    "nameEn": "抗衰老/抗皺精華液 (杰身質地)",
+    "type": "精華液",
+    "description": "燕窩抗皺精華液是一款以高品質燕窩提取物為主要成分的抗老護膚產品，專為淡化細紋、提升肌膚緊緻度而設計。燕窩富含蛋白質、膠原蛋白和多種營養素，能促進肌膚細胞再生，提升彈性，改善鬆弛和細紋。使用後，肌膚感覺細膩、光滑，皺紋減少，展現年輕、緊緻的光彩。長期使用能有效延緩肌膚老化跡象，讓肌膚持續保持青春彈潤，是抗老修復的理想選擇。",
+    "price": "90",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-serum",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-054",
+    "code": "054",
+    "name": "蜂膠",
+    "nameEn": "抗衰老/抗皺精華液 (杰身質地)",
+    "type": "精華液",
+    "description": "蜂膠抗皺精華液是一款結合天然蜂膠萃取物的高效抗老護膚產品，專為淡化細紋、提升肌膚彈性而設計。蜂膠富含抗氧化物、維生素和抗炎成分，能有效抵抗自由基，減緩肌膚老化過程。它深入滋養肌膚，促進膠原蛋白合成，改善皺紋和鬆弛，使肌膚變得更加緊緻、細膩。長期使用，能延緩肌膚老化跡象，讓肌膚保持年輕彈潤和光彩照人的狀態。",
+    "price": "90",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-serum",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-055",
+    "code": "055",
+    "name": "維他命E",
+    "nameEn": "抗衰老/抗皺精華液 (杰身質地)",
+    "type": "精華液",
+    "description": "維他命E抗皺精華液是一款以高濃度維他命E為主要成分的抗老護膚產品，專為淡化皺紋、提升肌膚緊緻度而設計。維他命E具有強大的抗氧化作用，能有效中和自由基，延緩肌膚老化。它能深入滋養肌膚，促進膠原蛋白生成，改善細紋和肌膚鬆弛，使肌膚變得更加細膩光滑，緊緻有彈性。長期使用，可幫助肌膚抵抗老化跡象，恢復健康、年輕的光彩，讓肌膚長久保持緊緻彈潤。",
+    "price": "90",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-serum",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-056",
+    "code": "056",
+    "name": "白睡蓮花",
+    "nameEn": "緊緻精華液 (杰身質地)",
+    "type": "精華液",
+    "description": "白睡蓮花精華是 Luna Pro 的皇牌產品，主要成分是珍貴的白睡蓮花萃取物和海生素，專為提升肌膚緊緻、抗皺和深層保濕而設計。白睡蓮花萃取物具有強大的抗氧化作用，能深層淨化肌膚、緊緻肌膚，並撫平紋理與細紋。而來自海洋的海生素富含礦物質和蛋白質，有助於修復肌膚屏障，提供長效保濕。此產品能有效對抗歲月痕跡，使肌膚更緊緻光滑，同時長時間保持水潤，改善彈性，促進細胞更新，讓肌膚恢復自然光澤。經實驗證實，它能降低成熟細胞中的脂肪堆積高達35%，幫助肌膚維持緊實。而持續使用8周後，能使下頜線條提升達1.9%，輪廓更清晰，全面幫助肌膚重拾緊緻與亮麗的狀態。",
+    "price": "90",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-serum",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-057",
+    "code": "057",
+    "name": "茶樹",
+    "nameEn": "暗瘡消炎/排毒精華液 (杰身質地)",
+    "type": "精華液",
+    "description": "茶樹暗瘡消炎精華液是一款以天然茶樹精油為主要成分的護膚產品，專為改善暗瘡、控制油脂和鎮靜肌膚而設計。茶樹具有強效抗菌和消炎作用，能有效抑制暗瘡細菌滋生，減少紅腫和發炎，同時調節油脂分泌，預防新暗瘡形成。產品質地清爽，不油膩，易於吸收，適合油性及暗瘡肌使用。長期使用能幫助肌膚變得清爽、平滑，減少肌膚敏感和不適，展現健康光潔的肌膚狀態。",
+    "price": "90",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-serum",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-058",
+    "code": "058",
+    "name": "葉綠素",
+    "nameEn": "暗瘡消炎/排毒精華液 (杰身質地)",
+    "type": "精華液",
+    "description": "葉綠素暗瘡消炎精華液是一款加入天然葉綠素成分的抗痘修復產品，專為油性和暗瘡肌膚設計。葉綠素具有強大的抗氧化、抗炎和淨化作用，能有效舒緩肌膚紅腫和刺激，抑制暗瘡菌的生長，減少發炎反應。同時，葉綠素具有良好的深層淨化能力，幫助清除毛孔中的污垢和多餘油脂，預防新痘痘生成。質地清爽不油膩，易於吸收，長期使用可改善肌膚油膩、不適狀況，讓肌膚恢復清新、健康與平衡。",
+    "price": "90",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-serum",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-059",
+    "code": "059",
+    "name": "積雪草控油",
+    "nameEn": "暗瘡消炎/排毒精華液 (杰身質地)",
+    "type": "精華液",
+    "description": "積雪草控油暗瘡消炎精華液是一款以積雪草提取物為主要成分的抗痘產品，專為油性肌膚和暗瘡肌設計。積雪草具有優異的抗炎和修復作用，能有效舒緩肌膚紅腫、減少發炎反應，抑制痘痘菌滋生，幫助平衡油脂分泌，預防暗瘡形成。產品能深入淨化毛孔，控油抗痘，同時促進肌膚修復和鎮靜，使肌膚更清爽柔嫩。長期使用不僅減少痘痘和紅腫，還能改善肌膚油膩、不適，展現健康、平衡的肌膚狀態。",
+    "price": "90",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-serum",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-060",
+    "code": "060",
+    "name": "洋甘菊",
+    "nameEn": "精華液",
+    "type": "精華液",
+    "description": "洋甘菊精華液是一款以天然洋甘菊提取物為主要成分的護膚產品，具有深層鎮靜、舒緩敏感和抗炎的功效。洋甘菊含有豐富的抗氧化物和抗炎成分，能有效緩解肌膚紅腫、敏感和刺激，幫助修復受損肌膚屏障，讓肌膚感覺柔嫩、清新。它還能抗氧化、抗老化，改善肌膚暗沉，使肌膚展現天然的亮澤與光彩。質地溫和易吸收，適合敏感肌、容易過敏或需要舒緩修護的肌膚使用，有助於打造健康、平衡的肌膚狀態。",
+    "price": "90",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-serum",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-061",
+    "code": "061",
+    "name": "微針補濕",
+    "nameEn": "精華液",
+    "type": "精華液",
+    "description": "微針補濕精華液是一款針對深層補水與肌膚修復的高效護膚產品。它融合了多重透明質酸、植物萃取和微針科技，能促進肌膚吸收營養，深層滲透，迅速緩解乾燥和緊繃感，讓肌膚變得柔嫩光滑。此精華液有助於提升肌膚彈性，修復受損肌膚屏障，並長時間鎖住水分，打造水潤飽滿的光澤肌膚。適合乾燥、缺水或敏感肌，長期使用能改善肌膚質地，讓肌膚恢復水嫩細膩的健康狀態。",
+    "price": "90",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-serum",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-062",
+    "code": "062",
+    "name": "玫瑰",
+    "nameEn": "面霜",
+    "type": "面霜",
+    "description": "玫瑰面霜是一款以天然玫瑰萃取物為核心成分的護膚產品，具有美白、提亮膚色、保濕和抗氧化的多重功效。它能幫助改善肌膚暗沉和色素沉著，使肌膚呈現自然光澤與細膩質感。玫瑰中的抗氧化成分能抵抗自由基，延緩肌膚老化，同時滋潤肌膚，讓皮膚長時間保持水潤細膩。豐富的滋養成分幫助肌膚恢復彈性與明亮度，適合需要提亮、滋養和抗老的肌膚，呈現健康亮麗的膚質。",
+    "price": "80",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-cream",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-063",
+    "code": "063",
+    "name": "草莓",
+    "nameEn": "面霜",
+    "type": "面霜",
+    "description": "草莓面霜是一款以天然草莓提取物為主要成分的護膚產品，具有保濕、亮白和抗氧化的多重功效。草莓富含維生素C和抗氧化物，能有效提亮膚色，改善暗沉肌膚，使肌膚更加細膩亮澤。其溫和滋潤配方能深層滋養肌膚，改善肌膚乾燥和粗糙，讓肌膚呈現柔嫩、光滑的狀態。長期使用可提亮膚色，增強肌膚活力，展現健康紅潤與自然光彩，是打造水潤亮白肌膚的理想選擇。",
+    "price": "80",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-cream",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-064",
+    "code": "064",
+    "name": "藍甘菊",
+    "nameEn": "面霜",
+    "type": "面霜",
+    "description": "藍甘菊面霜是一款以天然藍甘菊提取物為主要成分的護膚產品，具有深層滋潤、鎮靜舒緩和抗敏抗炎的功效。藍甘菊富含抗氧化物和抗炎成分，能有效緩解肌膚紅腫、敏感和刺激，幫助修復受損肌膚屏障，使肌膚感覺柔嫩、平滑且放鬆。它還能抗氧化、抗老化，改善肌膚暗沉，讓肌膚展現健康光澤與平衡。質地豐盈但不油膩，易於吸收，適合敏感肌和容易過敏肌膚，幫助肌膚維持自然的水油平衡，打造舒適、健康的肌膚狀態。",
+    "price": "80",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-cream",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-065",
+    "code": "065",
+    "name": "水漾活膚啫喱",
+    "nameEn": "面霜",
+    "type": "面霜",
+    "description": "水漾活膚啫喱面霜是一款輕盈清爽的護膚產品，專為深層滋潤和鎖水而設計。其質地如啫喱般輕薄，能迅速滲透肌底，為肌膚提供豐富的水分，讓肌膚感覺柔嫩、光滑且富有彈性。這款面霜富含保濕因子，能長時間鎖住水分，改善肌膚乾燥粗糙，同時維持肌膚的水嫩光澤。適合所有膚質，特別是油性、混合肌或需要水潤鎖水的肌膚，日常使用能讓肌膚長時間保持清新、水潤状態，展現自然的健康光彩。",
+    "price": "80",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-cream",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-066",
+    "code": "066",
+    "name": "甜橙",
+    "nameEn": "面霜",
+    "type": "面霜",
+    "description": "甜橙面霜是一款以天然甜橙精華為主要成分的護膚產品，具有保濕、提亮膚色和改善肌膚暗沉的功效。富含維生素C和抗氧化物，能有效調理肌膚，提亮膚色，使肌膚展現自然光澤。質地輕盈柔滑，易於吸收，能深入滋潤肌膚，改善乾燥與粗糙，讓肌膚柔嫩細膩。長期使用能提振肌膚活力，增強肌膚抗氧化能力，使肌膚呈現健康亮麗、充滿活力的狀態，是打造明亮、清新肌膚的理想選擇。",
+    "price": "80",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-cream",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-067",
+    "code": "067",
+    "name": "燕窩",
+    "nameEn": "面霜",
+    "type": "面霜",
+    "description": "燕窩面霜是一款高效抗老產品，採用高品質燕窩提取物結合多重滋養成分，專為淡化細紋、緊緻肌膚而設計。燕窩富含膠原蛋白、蛋白質和維生素，能促進肌膚細胞再生，提升肌膚彈性與緊緻度，改善肌膚鬆弛和皺紋，讓肌膚回復細膩光滑。長期使用能延緩肌膚老化跡象，讓肌膚變得更緊緻、亮澤，展現年輕、健康的光彩。",
+    "price": "80",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-cream",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-068",
+    "code": "068",
+    "name": "藍莓子",
+    "nameEn": "面霜",
+    "type": "面霜",
+    "description": "藍莓子面霜是一款以天然藍莓子萃取物為主要成分的護膚產品，具有深層滋潤、抗氧化和提亮膚色的功效。藍莓子富含抗氧化物和維生素，能有效抵抗自由基，延緩肌膚老化，改善暗沉和膚色不均。這款面霜質地柔潤細膩，能深入滋養肌膚，持久鎖水，讓肌膚感覺柔嫩光滑，展現自然亮麗的健康光澤。長期使用有助於提升肌膚彈性，改善膚質，讓肌膚保持年輕、光彩照人的狀態。",
+    "price": "80",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-cream",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-069",
+    "code": "069",
+    "name": "24小時美白液",
+    "nameEn": "面霜",
+    "type": "面霜",
+    "description": "24小時美白液面霜是一款長效美白護膚產品，具有持續提亮膚色和改善暗沉的功效。它融合多重美白成分，能有效抑制黑色素生成，均勻膚色，使肌膚長時間保持明亮、均勻和透亮。精華液狀的輕盈質地易於吸收，不粘膩，能深層滋潤肌膚，全天提供水潤與亮澤感。長期使用能改善肌膚黯淡無光的狀態，展現自然健康的亮白肌膚，讓你24小時都散發迷人光彩。",
+    "price": "80",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-cream",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-070",
+    "code": "070",
+    "name": "H2O",
+    "nameEn": "面霜",
+    "type": "面霜",
+    "description": "H2O面霜是一款以清爽水感為特色的保濕產品，專為深層滋潤和持久鎖水而設計。它的質地輕盈柔滑，能快速滲透肌底，為肌膚提供豐富水分，改善乾燥、緊繃感，讓肌膚柔嫩光滑、充滿彈性。富含高效保濕成分，能長時間鎖住水分，保持肌膚全天水潤亮澤。適合所有肌膚類型，特別是油性或敏感肌，使用後肌膚感覺清新舒適，自然亮麗，是打造水潤水光肌的理想選擇。",
+    "price": "80",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-cream",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-071",
+    "code": "071",
+    "name": "薰衣草",
+    "nameEn": "面霜",
+    "type": "面霜",
+    "description": "薰衣草面霜是一款融合天然薰衣草萃取物的護膚品，具有提亮膚色、抗氧化和深層保濕的功效。薰衣草的抗氧化成分能有效抵抗自由基，延緩肌膚老化，改善暗沉和膚色不均，使肌膚展現自然光澤與細膩感。面霜質地柔滑細膩，易於吸收，能深層滋養肌膚，長期使用能提升肌膚的彈性和光澤度，打造亮麗健康的肌膚狀態。同時，它還具有鎮靜肌膚、舒緩紅腫的功效，非常適合敏感肌和需要提亮的肌膚使用。",
+    "price": "80",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-cream",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-072",
+    "code": "072",
+    "name": "魚子保濕",
+    "nameEn": "面霜",
+    "type": "面霜",
+    "description": "魚子保濕面霜是一款高效抗老護膚產品，融合高純度魚子提取物和多重滋潤成分，專為淡化細紋、提升肌膚彈性而設計。魚子富含蛋白質、脂肪酸和膠原蛋白，能促進肌膚細胞再生，改善鬆弛與皺紋，讓肌膚變得更細膩光滑。產品還加入保濕因子，深層滋養肌膚，長效鎖水，讓肌膚持續充滿彈性與光澤。長期使用能有效延緩肌膚老化跡象，恢復年輕緊緻的肌膚狀態，展現青春亮麗的光采。",
+    "price": "80",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-cream",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-073",
+    "code": "073",
+    "name": "白睡蓮花",
+    "nameEn": "緊緻面霜",
+    "type": "面霜",
+    "description": "白睡蓮花面霜是 Luna Pro 的皇牌產品，主要成分是珍貴的白睡蓮花萃取物和海生素，專為提升肌膚緊緻、抗皺和深層保濕而設計。白睡蓮花萃取物擁有強大的抗氧化能力，能深層淨化肌膚、緊緻肌膚，並撫平紋理與細紋。海生素來自海洋，富含礦物質和蛋白質，有助於修復肌膚屏障，提供長效保濕。這款面霜能有效對抗歲月痕跡，使肌膚更加緊緻光滑，同時長時間保持水潤，改善彈性，促進細胞更新，讓肌膚散發自然光澤。經實驗證實，它能降低成熟細胞脂肪堆積高達35%，幫助肌膚維持緊實；長期使用8周後，能提升下頜線條達1.9%，輪廓更清晰，全面幫助肌膚重拾緊緻與亮麗。",
+    "price": "80",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-cream",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-074",
+    "code": "074",
+    "name": "蘆薈",
+    "nameEn": "潔面奶",
+    "type": "潔面奶",
+    "description": "蘆薈潔面奶是一款以天然蘆薈提取物為主要成分的溫和潔面產品，專為深層清潔肌膚、舒緩敏感和保濕而設計。蘆薈富含維生素和抗氧化物，不僅能有效清除肌膚上的污垢和多余油脂，還具有鎮靜舒緩作用，緩解肌膚刺激和紅腫。特別適合敏感肌膚、乾燥肌或需要溫和清潔的肌膚使用，用後肌膚感覺清新柔嫩，長時間保持肌膚水潤且不緊繃，是日常潔膚的溫和選擇。",
+    "price": "50",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-cleanser",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-075",
+    "code": "075",
+    "name": "玫瑰",
+    "nameEn": "潔面奶",
+    "type": "潔面奶",
+    "description": "玫瑰潔面奶是一款以天然玫瑰萃取物為主要成分的潔面產品，具有深層清潔、提亮膚色和抗氧化的功效。它能有效去除肌膚表面的油脂、污垢和化妝殘留，同時幫助均勻膚色，使肌膚看起來更明亮、細膩。潔面乳泡沫細膩豐盈，不刺激肌膚，不會造成乾燥緊繃，適合所有膚質，尤其是膚色暗沉、需要提亮的肌膚。長期使用，不僅清潔乾淨，更能提升肌膚亮度和光澤，讓肌膚展現自然健康的光彩。",
+    "price": "50",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-cleanser",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-076",
+    "code": "076",
+    "name": "茉莉",
+    "nameEn": "潔面奶",
+    "type": "潔面奶",
+    "description": "茉莉潔面奶是一款以天然茉莉花提取物為主要成分的溫和潔膚產品。它能有效深層清潔肌膚，去除多餘油脂、污垢與化妝殘留，同時散發淡雅茉莉香氣，帶來愉悅的清新感受。產品泡沫細膩豐盈，容易沖洗，不會讓肌膚乾燥緊繃，非常適合日常潔面。長期使用有助於改善肌膚光澤，保持肌膚柔嫩細膩，讓肌膚在清潔中也能展現天然的光彩與芳香。",
+    "price": "50",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-cleanser",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-077",
+    "code": "077",
+    "name": "甜橙",
+    "nameEn": "潔面奶",
+    "type": "潔面奶",
+    "description": "甜橙潔面奶是一款以天然甜橙提取物為主要成分的溫和潔膚產品。它能有效清除肌膚表面的油脂、污垢和雜質，同時散發清新甜橙香氣，讓潔面過程充滿愉悅感。泡沫細膩豐盈，易於沖洗，不會造成肌膚乾燥或緊繃，適合所有膚質尤其是需要提亮肌膚的肌膚。長期使用可以改善肌膚暗沉，提高肌膚亮澤度，讓肌膚展現自然清新的光采。",
+    "price": "50",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-cleanser",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-078",
+    "code": "078",
+    "name": "青瓜",
+    "nameEn": "潔面奶",
+    "type": "潔面奶",
+    "description": "青瓜潔面奶是一款以天然青瓜提取物為主要成分的溫和潔膚產品。它能深入清潔肌膚，去除多餘油脂、污垢和雜質，並有效舒緩肌膚敏感和紅腫。青瓜具有鎮靜和補水的功效，使用後肌膚感覺清新水潤，不緊繃，適合敏感肌膚和乾燥肌膚。泡沫細膩豐盈，容易沖洗，長期使用能改善肌膚敏感狀態，讓肌膚保持柔嫩、清爽和水潤明亮。",
+    "price": "50",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-cleanser",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-079",
+    "code": "079",
+    "name": "蜂膠",
+    "nameEn": "潔面奶",
+    "type": "潔面奶",
+    "description": "蜂膠潔面奶是一款結合天然蜂膠成分的溫和潔膚產品，專為淡化細紋、提升肌膚緊實度而設計。蜂膠富含抗氧化物和抗炎成分，能有效抵抗自由基，減少肌膚老化跡象。這款潔面奶能徹底清除污垢和油脂，同時滋養肌膚，提升肌膚彈性與緊緻度。泡沫細膩豐盈，不刺激肌膚，適合所有膚質，尤其是需要抗老緊緻的肌膚。長期使用，有助於肌膚保持年輕、光滑，展現健康亮麗的肌膚狀態。",
+    "price": "50",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-cleanser",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-080",
+    "code": "080",
+    "name": "藍甘菊",
+    "nameEn": "潔面奶",
+    "type": "潔面奶",
+    "description": "藍甘菊潔面奶是一款溫和純天然的潔面產品，以藍甘菊萃取物為主要成分，具有卓越的舒緩鎮靜效果。它能溫和清潔肌膚表面油脂、污垢和化妝殘留，同時舒緩敏感肌膚，減少紅腫和刺激。產品泡沫細膩豐盈，易於沖洗，不會導致肌膚乾燥或緊繃，適合敏感肌膚或需要舒緩的肌膚使用。長期使用能改善肌膚敏感狀況，讓肌膚感覺柔嫩、清新、平衡，展現健康自然的光澤。",
+    "price": "50",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-cleanser",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-081",
+    "code": "081",
+    "name": "骨膠原",
+    "nameEn": "潔面奶",
+    "type": "潔面奶",
+    "description": "骨膠原潔面奶是一款結合高純度膠原蛋白與美白成分的潔面產品，專為提亮膚色、改善暗沉肌膚及深層清潔設計。它能有效去除肌膚表面的油脂、污垢與化妝殘留，同時促進肌膚新陳代謝，使肌膚更加細膩光滑、亮麗。加入的膠原蛋白具有彈性修復作用，能緊緻肌膚，減少細紋，保持肌膚緊緻彈潤，而美白成分則幫助均勻膚色，改善暗沉，讓肌膚散發自然光澤。質地細膩柔潤，易於沖洗，是日常深層潔淨與美白護理的理想選擇。",
+    "price": "50",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-cleanser",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-082",
+    "code": "082",
+    "name": "薰衣草",
+    "nameEn": "潔面奶",
+    "type": "潔面奶",
+    "description": "薰衣草潔面奶是一款融合天然薰衣草萃取物的溫和潔膚產品，具有深層清潔、提亮膚色和抗氧化的功效。薰衣草中的抗氧化成分能有效抵抗自由基，減少肌膚暗沉，改善膚色不均，使肌膚看起來更加明亮、柔嫩。該潔面奶豐盈細膩的泡沫能徹底清除面上的油脂、污垢與化妝殘留，同時鎮靜舒緩肌膚，適合所有膚質，尤其是需要亮白膚色和敏感肌膚。長期使用能幫助肌膚提亮膚色，改善暗沉狀態，展現自然光澤與細膩肌膚。",
+    "price": "50",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-cleanser",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-083",
+    "code": "083",
+    "name": "洋甘菊",
+    "nameEn": "潔面奶",
+    "type": "潔面奶",
+    "description": "洋甘菊潔面奶是一款以天然洋甘菊提取物為主要成分的溫和潔膚產品，專為敏感肌膚設計。它能有效深層清潔肌膚表面油脂、污垢和雜質，同時鎮靜肌膚，舒緩紅腫和敏感反應。洋甘菊具有抗炎和抗氧化的作用，使用後肌膚感覺清新柔嫩，不緊繃且不刺激。產品泡沫細膩豐盈，容易沖洗，適合敏感肌、易過敏肌膚或需要溫和潔淨的人群。長期使用可改善肌膚敏感狀況，讓肌膚保持柔嫩、平衡與健康光澤。",
+    "price": "50",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-cleanser",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-084",
+    "code": "084",
+    "name": "白桑菊",
+    "nameEn": "潔面奶",
+    "type": "潔面奶",
+    "description": "白桑菊潔面奶是一款融合白桑葉與菊花提取物的溫和潔膚產品，專為舒緩肌膚、改善膚色不均和提亮肌膚而設計。它能有效清除肌膚表面油脂、污垢和污染物，同時具有抗氧化和鎮靜作用，幫助減少肌膚敏感、紅腫，讓肌膚感覺清爽細膩。產品泡沫細膩豐盈，易於沖洗，不會造成乾燥或緊繃，非常適合敏感肌或需要溫和潔淨的肌膚使用。長期使用有助於改善暗沉膚色，提亮膚色，展現自然光澤與健康肌膚。",
+    "price": "50",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-cleanser",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-085",
+    "code": "085",
+    "name": "葡萄籽",
+    "nameEn": "潔面奶",
+    "type": "潔面奶",
+    "description": "葡萄籽潔面奶是一款以天然葡萄籽提取物為主要成分的溫和潔膚產品。它能有效去除肌膚上的油脂、污垢和殘留彩妝，同時富含抗氧化成分，有助於抵抗自由基，延緩肌膚老化。產品質地細膩豐盈，泡沫丰富易沖洗，不刺激肌膚，適合所有膚質，尤其是需要抗氧化保護和清爽感的肌膚。長期使用能改善肌膚彈性、淡化細紋，讓肌膚更緊緻亮澤，展現健康光采。",
+    "price": "50",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-cleanser",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-086",
+    "code": "086",
+    "name": "純氧份",
+    "nameEn": "潔面奶",
+    "type": "潔面奶",
+    "description": "純氧份潔面奶是一款富含純氧技術的潔膚產品，專為深層清潔和注入氧氣而設計。它能有效去除肌膚表面的油脂、污垢與多餘角質，改善肌膚暗沉，使肌膚感覺清新、透亮。獨特的氧氣成分能促進肌膚細胞新陳代謝，提亮膚色，讓肌膚充滿活力與光彩。產品質地溫和泡沫細膩，適合各膚質，尤其適用於需要深層淨化和升級肌膚氧氣感的肌膚，帶來全天候的健康光澤。",
+    "price": "50",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-cleanser",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-087",
+    "code": "087",
+    "name": "海洋注氧",
+    "nameEn": "潔面奶",
+    "type": "潔面奶",
+    "description": "海洋注氧潔面奶是一款融合海洋元素和氧氣技術的深層潔膚產品。它能有效清除肌膚表面的油脂、污垢與污染物，同時富含海洋礦物質和氧氣，促進肌膚細胞的新陳代謝，提升肌膚的氧合能力。使用後，肌膚感覺清新水潤，光彩照人，改善暗沉和疲憊狀態。產品質地溫和，泡沫細膩豐盈，適合所有肌膚類型，尤其適用於需要深層淨化和肌膚充滿活力的肌膚，讓肌膚展現健康亮澤的自然光彩。",
+    "price": "50",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-cleanser",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-088",
+    "code": "088",
+    "name": "甘菊",
+    "nameEn": "雙層卸妝液",
+    "type": "雙層卸妝液",
+    "description": "甘菊雙層卸妝液是一款溫和有效的卸妝產品，融合天然甘菊萃取物與保濕精華，專為溫和卸除彩妝與肌膚污垢而設計。產品由油水雙層組成，使用前需要充分搖勻，以確保成分混合均勻。油層能快速溶解彩妝、防水睫毛膏等顽固彩妝，水層則提供滋潤和鎮靜效果，避免肌膚乾燥緊繃。甘菊的抗炎鎮靜功效能舒緩肌膚敏感，適合敏感肌或平時需要溫和卸妝的人士。使用後肌膚感覺清爽柔嫩，無油膩感，為肌膚帶來溫柔且徹底的清潔體驗。",
+    "price": "60",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-remover",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-089",
+    "code": "089",
+    "name": "玫瑰",
+    "nameEn": "雙層卸妝液",
+    "type": "雙層卸妝液",
+    "description": "玫瑰雙層卸妝液是一款溫和且高效的雙層卸妝產品，融合天然玫瑰萃取物與柔和的油水配方。使用前需充分搖勻，讓油層與水層充分融合，以快速溶解彩妝、隔離霜和防水睫毛膏等顽固彩妝。玫瑰成分具有抗氧化和提亮膚色的作用，能在卸妝的同時滋潤肌膚、舒緩敏感。產品質地溫和，不油膩、不堵塞毛孔，適合所有膚質，特別是需要深層清潔和提亮膚色的肌膚使用。長期使用，能幫助肌膚保持潔淨明亮，展現光澤饒有活力的肌膚狀態。",
+    "price": "60",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-remover",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-090",
+    "code": "090",
+    "name": "綠茶",
+    "nameEn": "雙層卸妝液",
+    "type": "雙層卸妝液",
+    "description": "綠茶雙層卸妝液是一款融合天然綠茶萃取物與溫和油水配方的雙層卸妝產品。使用前需充分搖勻，使油層與水層充分融合，能有效快速溶解各種彩妝、隔離霜及防水產品。綠茶成分富含抗氧化物，具有美白提亮膚色和抗自由基的功能，能在卸妝的同時滋養肌膚，鎮靜敏感。產品質地輕盈柔滑，不油膩、不堵塞毛孔，適合各肌膚類型，特別是需要深層清潔和提亮肌膚的肌膚。長期使用，有助於保持肌膚潔淨、鮮亮，展現健康自然的光澤。",
+    "price": "60",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-remover",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-091",
+    "code": "091",
+    "name": "紫羅蘭",
+    "nameEn": "雙層卸妝液",
+    "type": "雙層卸妝液",
+    "description": "紫羅蘭雙層卸妝液是一款溫和且高效的雙層卸妝產品，融合純天然紫羅蘭提取物與溫和油水配方。使用前需充分搖勻，讓油層與水層充分混合，能快速溶解各種彩妝、持久防水產品和隔離霜。紫羅蘭的抗氧化和舒緩特性有助於改善肌膚敏感，鎮靜紅腫，並在卸妝的同時滋養肌膚，讓肌膚感覺柔嫩光滑。產品質地輕盈不油膩，適合所有肌膚，尤其是敏感肌和需要深層清潔的肌膚長期使用，有助於保持肌膚潔淨、清新，展現自然光澤與健康肌膚狀態。",
+    "price": "60",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-remover",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-092",
+    "code": "092",
+    "name": "橙柑",
+    "nameEn": "卸妝油",
+    "type": "雙層卸妝液",
+    "description": "橙柑卸妝油是一款以天然橙子和柑橘提取物為主要成分的溫和卸妝產品。它能迅速溶解彩妝、隔離霜和防水睫毛膏，帶來深層潔淨效果。橙子和柑橘的富含維生素C和抗氧化成分，不僅幫助清除肌膚表面雜質，還能提亮膚色、提升肌膚光澤。產品質地柔滑，容易推開，沖洗後肌膚感覺清新不油膩，適合所有膚質，特別是需要徹底清潔和提亮肌膚的使用者。長期使用能讓肌膚保持潔淨明亮，展現健康自然的光彩。",
+    "price": "60",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-remover",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-093",
+    "code": "093",
+    "name": "維他命E",
+    "nameEn": "卸妝油",
+    "type": "雙層卸妝液",
+    "description": "維他命E卸妝油是一款溫和高效的卸妝產品，蕴含豐富的維他命E及天然植物油，能迅速溶解彩妝、持久防水產品和污染物，徹底潔淨肌膚。維他命E具有強大的抗氧化作用，能中和自由基，保護肌膚免受外界傷害，同時鎮靜舒緩肌膚。產品質地柔滑細膩，推開後易於沖洗，不會留下油膩感，適合所有膚質，尤其是敏感肌和需要深層清潔的肌膚。長期使用有助於維持肌膚健康亮麗，讓肌膚潔淨且充滿活力。",
+    "price": "60",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-remover",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-094",
+    "code": "094",
+    "name": "櫻花",
+    "nameEn": "卸妝油",
+    "type": "雙層卸妝液",
+    "description": "櫻花卸妝油是一款以天然櫻花萃取物為主要成分的高效卸妝產品。它能快速溶解彩妝、隔離霜和持久防水產品，徹底潔淨肌膚。櫻花含有豐富的抗氧化物和天然保濕成分，不僅幫助卸除彩妝，更能溫和滋養肌膚，預防乾燥和刺激。產品質地細膩柔滑，輕鬆推開，沖洗後肌膚清爽不油膩，適合所有膚質，尤其是需要深層清潔且追求溫和護理的肌膚。長期使用，有助於保持肌膚純淨光亮，展現自然健康的膚質。",
+    "price": "60",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-remover",
+    "imageUrl": ""
+  },
+  {
+    "id": "prod-095",
+    "code": "095",
+    "name": "深層 (無色無味）",
+    "nameEn": "卸妝油",
+    "type": "雙層卸妝液",
+    "description": "深層（無色無味）卸妝油是一款高效潔膚產品，主要成份為離子水和荷荷巴油，專為徹底卸除彩妝和污垢而設。該卸妝油質地細膩，能快速溶解持久的彩妝、粉底和防水產品，讓肌膚潔淨透亮。離子水具有調理肌膚平衡、鎮靜肌膚的功能，有助於舒緩敏感肌膚，而荷荷巴油則提供溫和滋潤，保護肌膚屏障，沖洗後肌膚柔嫩光滑，不油膩。無色無味的配方適合所有膚質，特別是敏感肌和追求純淨護膚的人群，讓你在徹底清潔的同時享受純粹放鬆的護膚體驗。",
+    "price": "60",
+    "note": "價錢已經包含樽及工費",
+    "stock": 100,
+    "categoryId": "cat-remover",
+    "imageUrl": ""
+  }
+]

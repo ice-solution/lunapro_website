@@ -1,0 +1,44 @@
+[
+  {
+    "id": "cat-mask",
+    "name": "蠶絲面膜",
+    "nameEn": "Silk Mask",
+    "description": "深層滋養，煥發肌膚活力",
+    "order": 1
+  },
+  {
+    "id": "cat-toner",
+    "name": "爽膚水",
+    "nameEn": "Toner",
+    "description": "平衡肌膚，清爽舒適",
+    "order": 2
+  },
+  {
+    "id": "cat-serum",
+    "name": "精華液",
+    "nameEn": "Serum",
+    "description": "高效精華，快速滲透",
+    "order": 3
+  },
+  {
+    "id": "cat-cream",
+    "name": "面霜",
+    "nameEn": "Cream",
+    "description": "滋潤保濕，呵護肌膚",
+    "order": 4
+  },
+  {
+    "id": "cat-cleanser",
+    "name": "潔面奶",
+    "nameEn": "Cleanser",
+    "description": "溫和潔淨，清爽舒適",
+    "order": 5
+  },
+  {
+    "id": "cat-remover",
+    "name": "雙層卸妝液",
+    "nameEn": "Remover",
+    "description": "徹底卸妝，溫和不刺激",
+    "order": 6
+  }
+]
