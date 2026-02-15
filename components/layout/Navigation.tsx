@@ -54,9 +54,10 @@ export default function Navigation({ activePath }: NavigationProps) {
                 <ShoppingBag className="w-4 h-4" />
               </Button>
             </Link> */}
-            <Link href="/dashboard">
+            {/* 會員中心功能暫時隱藏 */}
+            {/* <Link href="/dashboard">
               <Button size="sm">會員中心</Button>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

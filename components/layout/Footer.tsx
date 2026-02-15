@@ -1,5 +1,6 @@
 import { Link } from "wouter";
 import { LUNA_LOGO } from "@shared/const";
+import { contactInfo } from "@/data/site-data";
 
 export default function Footer() {
   return (
@@ -10,7 +11,7 @@ export default function Footer() {
             <img
               src={LUNA_LOGO}
               alt="Luna Skin"
-              className="h-12 mb-4 brightness-0 invert"
+              className="h-12 mb-4"
             />
             <p className="text-gray-400 text-sm">Where Simplicity Meets Luxury</p>
           </div>
@@ -26,8 +27,6 @@ export default function Footer() {
                 <Link href="/products" className="hover:text-white transition-colors">
                   產品目錄
                 </Link>
-              </li>
-              <li>
               </li>
               <li>
                 <Link href="/activities" className="hover:text-white transition-colors">
@@ -64,9 +63,9 @@ export default function Footer() {
           <div>
             <h4 className="font-bold mb-4">聯絡資訊</h4>
             <ul className="space-y-2 text-gray-400 text-sm">
-              <li>香港</li>
-              <li>電郵: info@lunaskin.hk</li>
-              <li>電話: +852 XXXX XXXX</li>
+              <li>{contactInfo.address}</li>
+              <li>電郵: {contactInfo.email}</li>
+              <li>電話: {contactInfo.phone}</li>
             </ul>
           </div>
         </div>
