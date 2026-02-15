@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeft, Calendar, MapPin, Users, Clock, CheckCircle2 } from "lucide-react";
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import PageLayout from "@/components/layout/PageLayout";
 
 // 活動數據（應該從 API 或數據文件載入）
@@ -186,7 +186,7 @@ const activitiesData = [
 export default function ActivityDetail() {
   const params = useParams();
   const activityId = params.id as string;
-  const [activity, setActivity] = useState(activitiesData.find(a => a.id === activityId));
+  const activity = activitiesData.find(a => a.id === activityId);
 
   // 頁面載入時滾動到頂部
   useEffect(() => {

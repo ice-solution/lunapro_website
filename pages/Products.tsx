@@ -11,9 +11,7 @@ import {
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
-import { ShoppingCart, Award, Search } from "lucide-react";
-import { trpc } from "@/lib/trpc";
-import { useAuth } from "@/_core/hooks/useAuth";
+import { Award, Search } from "lucide-react";
 import PageLayout from "@/components/layout/PageLayout";
 import productsData from "@/data/products.json";
 import categoriesData from "@/data/categories.json";
@@ -24,7 +22,6 @@ const formatPrice = (price: string) => {
 
 export default function Products() {
   const [location] = useLocation();
-  const { isAuthenticated } = useAuth();
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
 

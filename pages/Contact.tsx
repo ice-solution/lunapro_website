@@ -6,7 +6,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { Select, SelectContent, SelectItem, SelectValue } from "@/components/ui/select";
 import { Mail, Phone, MapPin, CheckCircle2 } from "lucide-react";
 import { toast } from "sonner";
 import { contactInfo } from "@/data/site-data";
@@ -22,10 +22,12 @@ export default function Contact() {
     message: ""
   });
   const [submitted, setSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const submitInquiry = trpc.inquiries.submit.useMutation({
     onSuccess: () => {
       setSubmitted(true);
+      setIsSubmitting(false);
       toast.success("提交成功！我們會盡快與您聯繫。");
     },
     onError: (error) => {
@@ -36,6 +38,7 @@ export default function Contact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    setIsSubmitting(true);
     submitInquiry.mutate(formData);
   };
 
@@ -146,12 +149,11 @@ export default function Contact() {
                   <div className="space-y-2">
                     <Label htmlFor="businessType">業務類型</Label>
                     <Select
+                      id="businessType"
                       value={formData.businessType}
-                      onValueChange={(value) => handleChange("businessType", value)}
+                      onChange={(e) => handleChange("businessType", e.target.value)}
                     >
-                      <SelectTrigger id="businessType">
-                        <SelectValue placeholder="請選擇您的業務類型" />
-                      </SelectTrigger>
+                      <SelectValue placeholder="請選擇您的業務類型" />
                       <SelectContent>
                         <SelectItem value="salon">美容院 / Beauty Salon</SelectItem>
                         <SelectItem value="spa">水療中心 / Spa Center</SelectItem>
@@ -178,9 +180,9 @@ export default function Contact() {
                   <Button
                     type="submit"
                     className="w-full"
-                    disabled={submitInquiry.isPending}
+                    disabled={isSubmitting}
                   >
-                    {submitInquiry.isPending ? "提交中..." : "提交查詢"}
+                    {isSubmitting ? "提交中..." : "提交查詢"}
                   </Button>
                 </form>
               </CardContent>

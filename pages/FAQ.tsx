@@ -5,6 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { ChevronDown } from "lucide-react";
 import { useState } from "react";
 import PageLayout from "@/components/layout/PageLayout";
+import { LUNA_LOGO } from "@shared/const";
 
 export default function FAQ() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);

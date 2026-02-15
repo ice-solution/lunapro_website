@@ -4,6 +4,7 @@ import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Package, Truck, CreditCard, HeadphonesIcon, GraduationCap, TrendingUp } from "lucide-react";
 import PageLayout from "@/components/layout/PageLayout";
+import { LUNA_LOGO } from "@shared/const";
 
 export default function Wholesale() {
   return (

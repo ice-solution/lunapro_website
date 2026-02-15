@@ -2,7 +2,7 @@ import { Link, useParams } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { ShoppingCart, ArrowLeft, Check, Package, Truck, Shield } from "lucide-react";
+import { ArrowLeft, Check, Package, Truck, Shield } from "lucide-react";
 import { trpc } from "@/lib/trpc";
 import { useState, useEffect } from "react";
 import PageLayout from "@/components/layout/PageLayout";
@@ -11,7 +11,7 @@ export default function ProductDetail() {
   const params = useParams();
   const productId = params.id as string;
   const [quantity, setQuantity] = useState(1);
-  const [selectedOption, setSelectedOption] = useState<{quantity: number; price: number; unit: number} | null>(null);
+  const [selectedOption, setSelectedOption] = useState<{quantity: number; price: number; unit: number; label?: string} | null>(null);
 
   // Fetch product details
   const { data: product, isLoading } = trpc.products.getById.useQuery({ id: productId });
@@ -67,22 +67,22 @@ export default function ProductDetail() {
     }
   }, [product, selectedOption]);
 
-  const handleAddToCart = () => {
-    // TODO: Implement add to cart functionality
-    const qty = selectedOption ? selectedOption.quantity : quantity;
-    alert(`已添加 ${qty} 件 ${product.name} 到購物車`);
-  };
+  // TODO: Implement add to cart functionality when needed
+  // const handleAddToCart = () => {
+  //   const qty = selectedOption ? selectedOption.quantity : quantity;
+  //   alert(`已添加 ${qty} 件 ${product.name} 到購物車`);
+  // };
 
-  // 計算總價
-  const calculateTotal = () => {
-    if (selectedOption) {
-      return selectedOption.price * selectedOption.quantity;
-    }
-    if (product.price && parseInt(product.price) > 0) {
-      return parseInt(product.price) * quantity;
-    }
-    return 0;
-  };
+  // TODO: Calculate total when needed
+  // const calculateTotal = () => {
+  //   if (selectedOption) {
+  //     return selectedOption.price * selectedOption.quantity;
+  //   }
+  //   if (product.price && parseInt(product.price) > 0) {
+  //     return parseInt(product.price) * quantity;
+  //   }
+  //   return 0;
+  // };
 
   return (
     <PageLayout activePath="/products">
@@ -243,7 +243,7 @@ export default function ProductDetail() {
                 {selectedOption && (
                   <div className="bg-blue-50 p-4 rounded-lg">
                     <p className="text-sm text-gray-700 mb-1">
-                      已選擇：<span className="font-semibold">{selectedOption.label}</span>
+                      已選擇：<span className="font-semibold">{selectedOption.label || `${selectedOption.quantity}片`}</span>
                     </p>
                     <p className="text-lg font-bold text-primary">
                       總價：HKD {(selectedOption.price * selectedOption.quantity).toLocaleString()}

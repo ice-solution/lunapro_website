@@ -1,5 +1,4 @@
 import { Link, useLocation } from "wouter";
-import { Button } from "@/components/ui/button";
 import { LUNA_LOGO } from "@shared/const";
 // import { ShoppingBag } from "lucide-react"; // 購物車功能暫時隱藏
 
