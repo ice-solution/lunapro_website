@@ -6,6 +6,7 @@ import { ArrowLeft, Check, Package, Truck, Shield } from "lucide-react";
 import { trpc } from "@/lib/trpc";
 import { useState, useEffect } from "react";
 import PageLayout from "@/components/layout/PageLayout";
+import { cdnUrl } from "@/lib/cdn";
 
 export default function ProductDetail() {
   const params = useParams();
@@ -73,6 +74,39 @@ export default function ProductDetail() {
   //   alert(`已添加 ${qty} 件 ${product.name} 到購物車`);
   // };
 
+  const orderQty = selectedOption ? selectedOption.quantity : quantity;
+  const whatsappPhone =
+    (import.meta.env as any).WHATSAPP_PHONE ||
+    (import.meta.env as any).VITE_WHATSAPP_PHONE ||
+    "";
+  const getCategoryLabel = (categoryId?: string | null) => {
+    switch (categoryId) {
+      case "cat-mask":
+        return "面膜系列";
+      case "cat-serum":
+        return "精華系列";
+      case "cat-toner":
+        return "爽膚水系列";
+      case "cat-cleanser":
+        return "潔面系列";
+      case "cat-cream":
+        return "面霜系列";
+      case "cat-remover":
+        return "卸妝系列";
+      default:
+        return product.type || "產品";
+    }
+  };
+
+  const productLabel = `${getCategoryLabel(product.categoryId)}-${product.name}`;
+  const productUrl = typeof window !== "undefined" ? window.location.href : "";
+  const whatsappText = `你好，我對${productLabel}有興趣，我想訂購${orderQty}件。\n${productUrl}`;
+  const whatsappUrl = whatsappPhone
+    ? `https://api.whatsapp.com/send/?phone=${encodeURIComponent(
+        whatsappPhone
+      )}&text=${encodeURIComponent(whatsappText)}`
+    : "";
+
   // TODO: Calculate total when needed
   // const calculateTotal = () => {
   //   if (selectedOption) {
@@ -115,7 +149,7 @@ export default function ProductDetail() {
             <div className="aspect-square bg-gradient-to-br from-primary/10 to-accent/10 rounded-2xl overflow-hidden mb-4 flex items-center justify-center">
               {product.imageUrl ? (
                 <img
-                  src={product.imageUrl}
+                  src={cdnUrl(product.imageUrl)}
                   alt={product.name}
                   className="w-full h-full object-cover"
                 />
@@ -136,7 +170,7 @@ export default function ProductDetail() {
                 {[1, 2, 3, 4].map((i) => (
                   <div key={i} className="aspect-square bg-gray-100 rounded-lg overflow-hidden cursor-pointer hover:ring-2 hover:ring-primary transition-all">
                     <img
-                      src={product.imageUrl || '/images/placeholder-product.jpg'}
+                      src={cdnUrl(product.imageUrl || '/images/placeholder-product.jpg')}
                       alt={`${product.name} ${i}`}
                       className="w-full h-full object-cover"
                     />
@@ -292,9 +326,22 @@ export default function ProductDetail() {
                 <ShoppingCart className="w-5 h-5 mr-2" />
                 加入購物車
               </Button> */}
-              <Button size="lg" variant="outline" className="flex-1">
-                立即購買
-              </Button>
+              {whatsappUrl ? (
+                <a
+                  className="flex-1"
+                  href={whatsappUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Button size="lg" variant="outline" className="w-full">
+                    立即購買
+                  </Button>
+                </a>
+              ) : (
+                <Button size="lg" variant="outline" className="flex-1" disabled>
+                  立即購買
+                </Button>
+              )}
             </div>
 
             {/* Shipping Info */}

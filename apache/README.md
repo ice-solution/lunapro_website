@@ -33,8 +33,9 @@ sudo apt install apache2
 #### 步驟 2: 啟用必要的 Apache 模組
 ```bash
 sudo a2enmod rewrite
-sudo a2enmod ssl
 sudo a2enmod headers
+# 注意：Flexible SSL 模式下不需要 SSL 模組
+# 如果將來需要使用 Full SSL，請啟用：sudo a2enmod ssl
 sudo systemctl restart apache2
 ```
 
@@ -51,14 +52,23 @@ npm run build
 sudo cp -r dist/* /var/www/lunapro_website/dist/
 ```
 
-#### 步驟 5: 複製配置文件
+#### 步驟 5: 複製配置文件並啟用網站
+
+**方法 1: 使用自動設置腳本（推薦）**
 ```bash
-sudo cp apache/lunaskin.brandactivation.hk.conf /etc/apache2/sites-available/
+cd /path/to/lunaskin_prod
+sudo ./apache/setup.sh
 ```
 
-#### 步驟 6: 啟用網站
+**方法 2: 手動設置**
 ```bash
+# 複製配置文件
+sudo cp apache/lunaskin.brandactivation.hk.conf /etc/apache2/sites-available/
+
+# 啟用網站（a2ensite）
 sudo a2ensite lunaskin.brandactivation.hk.conf
+
+# 重載 Apache
 sudo systemctl reload apache2
 ```
 
@@ -150,4 +160,5 @@ echo "部署完成！"
 
 ## 相關文件
 - VirtualHost 配置：`apache/lunaskin.brandactivation.hk.conf`
-- 部署腳本：`deploy.sh`（需要創建）
+- Apache 設置腳本：`apache/setup.sh`（自動設置和啟用網站）
+- 部署腳本：`deploy.sh`（構建和部署網站）

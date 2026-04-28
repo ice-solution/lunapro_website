@@ -6,6 +6,7 @@ import { Calendar, MapPin, Users, Award } from "lucide-react";
 import { activitiesContent } from "@/data/site-data";
 import PageLayout from "@/components/layout/PageLayout";
 import { useState } from "react";
+import { cdnUrl } from "@/lib/cdn";
 
 export default function Activities() {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
@@ -142,7 +143,7 @@ export default function Activities() {
                 <Card key={activity.id} className="overflow-hidden hover:shadow-2xl transition-shadow group">
                   <div className="relative h-64 overflow-hidden">
                     <img
-                      src={activity.imageUrl}
+                      src={cdnUrl(activity.imageUrl)}
                       alt={activity.title}
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                     />

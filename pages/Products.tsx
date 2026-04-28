@@ -15,6 +15,7 @@ import { Award, Search } from "lucide-react";
 import PageLayout from "@/components/layout/PageLayout";
 import productsData from "@/data/products.json";
 import categoriesData from "@/data/categories.json";
+import { cdnUrl } from "@/lib/cdn";
 
 const formatPrice = (price: string) => {
   return `HKD ${parseInt(price).toLocaleString()}`;
@@ -146,7 +147,7 @@ export default function Products() {
                     <div className="h-48 bg-gradient-to-br from-primary/10 to-accent/10 flex items-center justify-center overflow-hidden">
                       {product.imageUrl ? (
                         <img 
-                          src={product.imageUrl} 
+                          src={cdnUrl(product.imageUrl)} 
                           alt={product.name}
                           className="w-full h-full object-cover"
                         />

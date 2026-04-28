@@ -1,11 +1,17 @@
-import { drizzle } from "drizzle-orm/mysql2";
-import { nanoid } from "nanoid";
-import { productCategories, products, membershipTiers } from "../drizzle/schema";
-
-const db = drizzle(process.env.DATABASE_URL!);
+import { MongoClient } from "mongodb";
 
 async function seed() {
   console.log("🌱 Seeding database...");
+
+  const mongoUri = process.env.MONGODB_URI;
+  const dbName = process.env.MONGODB_DB || "lunaskin";
+  if (!mongoUri) {
+    throw new Error("Missing MONGODB_URI");
+  }
+
+  const client = new MongoClient(mongoUri);
+  await client.connect();
+  const db = client.db(dbName);
 
   // Categories
   const categories = [
@@ -23,8 +29,13 @@ async function seed() {
     }
   ];
 
+  const productCategories = db.collection("productCategories");
   for (const cat of categories) {
-    await db.insert(productCategories).values(cat).onDuplicateKeyUpdate({ set: { name: cat.name } });
+    await productCategories.updateOne(
+      { id: cat.id },
+      { $set: { ...cat, updatedAt: new Date() }, $setOnInsert: { createdAt: new Date() } },
+      { upsert: true }
+    );
   }
   console.log("✅ Categories seeded");
 
@@ -128,8 +139,21 @@ async function seed() {
     }
   ];
 
+  const products = db.collection("products");
   for (const prod of productList) {
-    await db.insert(products).values(prod).onDuplicateKeyUpdate({ set: { name: prod.name } });
+    await products.updateOne(
+      { id: prod.id },
+      {
+        $set: {
+          ...prod,
+          // 與前端/查詢一致：Mongo 內存 boolean
+          isActive: true,
+          updatedAt: new Date(),
+        },
+        $setOnInsert: { createdAt: new Date() },
+      },
+      { upsert: true }
+    );
   }
   console.log("✅ Products seeded");
 
@@ -182,12 +206,19 @@ async function seed() {
     }
   ];
 
+  const membershipTiers = db.collection("membershipTiers");
   for (const tier of tiers) {
-    await db.insert(membershipTiers).values(tier).onDuplicateKeyUpdate({ set: { name: tier.name } });
+    await membershipTiers.updateOne(
+      { id: tier.id },
+      { $set: { ...tier, updatedAt: new Date() }, $setOnInsert: { createdAt: new Date() } },
+      { upsert: true }
+    );
   }
   console.log("✅ Membership tiers seeded");
 
   console.log("🎉 Seeding completed!");
+
+  await client.close();
   process.exit(0);
 }
 

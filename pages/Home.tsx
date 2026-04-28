@@ -5,6 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { Sparkles, Award, Users, TrendingUp, GraduationCap } from "lucide-react";
 import PageLayout from "@/components/layout/PageLayout";
 import { partners } from "@/data/site-data";
+import { cdnUrl } from "@/lib/cdn";
 
 export default function Home() {
   return (
@@ -54,7 +55,7 @@ export default function Home() {
             </div>
             <div className="relative">
               <img 
-                src="/hero.webp" 
+                src={cdnUrl("/hero.webp")} 
                 alt="Luna Nymphaea Youthful Tightening Silk Mask" 
                 className="rounded-2xl shadow-2xl w-full h-[500px] object-cover bg-gradient-to-br from-blue-50 to-cyan-50"
                 onError={(e) => {
@@ -129,7 +130,7 @@ export default function Home() {
             <Card className="overflow-hidden hover:shadow-2xl transition-shadow">
               <div className="h-64 bg-gradient-to-br from-pink-100 to-pink-50 flex items-center justify-center overflow-hidden">
                 <img 
-                  src="/left.jpg" 
+                  src={cdnUrl("/left.jpg")} 
                   alt="緊緻系列" 
                   className="w-full h-full object-cover"
                   onError={(e) => {
@@ -168,7 +169,7 @@ export default function Home() {
             <Card className="overflow-hidden hover:shadow-2xl transition-shadow">
               <div className="h-64 bg-gradient-to-br from-blue-100 to-blue-50 flex items-center justify-center overflow-hidden">
                 <img 
-                  src="/right.jpg" 
+                  src={cdnUrl("/right.jpg")} 
                   alt="補水系列" 
                   className="w-full h-full object-cover"
                   onError={(e) => {
@@ -223,7 +224,7 @@ export default function Home() {
                 {/* 圖片區域 - 上方 */}
                 <div className="h-64 md:h-72 bg-gray-50 flex items-center justify-center p-6">
                   <img 
-                    src={partner.image} 
+                    src={cdnUrl(partner.image)} 
                     alt={partner.name} 
                     className="max-w-full max-h-full object-contain"
                     onError={(e) => {

@@ -4,6 +4,7 @@ import { Card } from "@/components/ui/card";
 import { Trash2, Plus, Minus, ShoppingBag } from "lucide-react";
 import { useState } from "react";
 import PageLayout from "@/components/layout/PageLayout";
+import { cdnUrl } from "@/lib/cdn";
 
 export default function Cart() {
   // Mock cart data - in real app, this would come from trpc
@@ -70,7 +71,7 @@ export default function Cart() {
                 <Card key={item.id} className="p-6">
                   <div className="flex gap-6">
                     <img
-                      src={item.imageUrl}
+                      src={cdnUrl(item.imageUrl)}
                       alt={item.name}
                       className="w-24 h-24 object-cover rounded-lg"
                     />

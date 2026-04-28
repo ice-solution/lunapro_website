@@ -5,6 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { ArrowLeft, Calendar, MapPin, Users, Clock, CheckCircle2 } from "lucide-react";
 import { useEffect } from "react";
 import PageLayout from "@/components/layout/PageLayout";
+import { cdnUrl } from "@/lib/cdn";
 
 // 活動數據（應該從 API 或數據文件載入）
 const activitiesData = [
@@ -260,7 +261,7 @@ export default function ActivityDetail() {
             <div className="aspect-video bg-gradient-to-br from-primary/10 to-accent/10 rounded-2xl overflow-hidden mb-8">
               {activity.imageUrl ? (
                 <img
-                  src={activity.imageUrl}
+                  src={cdnUrl(activity.imageUrl)}
                   alt={activity.title}
                   className="w-full h-full object-cover"
                 />
