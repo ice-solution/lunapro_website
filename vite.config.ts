@@ -9,8 +9,19 @@ export default defineConfig(({ mode }) => {
   const portRaw = env.VITE_PORT ?? env.PORT;
   const port = portRaw ? Number(portRaw) : 3000;
 
+  const siteUrl = (env.VITE_SITE_URL || "").replace(/\/+$/, "");
+  const ogImageUrl = siteUrl ? `${siteUrl}/luna_logo.png` : "/luna_logo.png";
+
   return {
-    plugins: [react()],
+    plugins: [
+      react(),
+      {
+        name: "html-og-image",
+        transformIndexHtml(html) {
+          return html.replaceAll("__OG_IMAGE_URL__", ogImageUrl);
+        },
+      },
+    ],
     define: {
       // 讓前端也能讀到非 VITE_ 前綴的 FRONTEND_URL
       "import.meta.env.FRONTEND_URL": JSON.stringify(env.FRONTEND_URL ?? ""),

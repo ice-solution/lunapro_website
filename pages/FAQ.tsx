@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { ChevronDown } from "lucide-react";
 import { useState } from "react";
 import PageLayout from "@/components/layout/PageLayout";
-import { LUNA_LOGO } from "@shared/const";
+import { LogoMark } from "@/components/LogoMark";
 
 export default function FAQ() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
@@ -184,7 +184,7 @@ export default function FAQ() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
-              <img src={LUNA_LOGO} alt="Luna Skin" className="h-12 mb-4 brightness-0 invert" />
+              <LogoMark boxClassName="mb-4 h-12 md:h-14" imgClassName="brightness-0 invert" />
               <p className="text-gray-400 text-sm">Where Simplicity Meets Luxury</p>
             </div>
             <div>

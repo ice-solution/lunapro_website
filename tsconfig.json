@@ -28,7 +28,7 @@
       "@/_core/*": ["./_core/*"]
     }
   },
-  "include": ["**/*.ts", "**/*.tsx"],
+  "include": ["**/*.ts", "**/*.tsx", "**/*.d.ts"],
   "exclude": ["schema.ts", "db.ts", "seed.ts", "routers.ts", "vite.config.ts", "tsconfig*.json", "**/Dashboard.tsx", "node_modules", "dist"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

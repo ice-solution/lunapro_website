@@ -1,5 +1,5 @@
 import { Link } from "wouter";
-import { LUNA_LOGO } from "@shared/const";
+import { LogoMark } from "@/components/LogoMark";
 import { contactInfo } from "@/data/site-data";
 
 export default function Footer() {
@@ -8,10 +8,9 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
-            <img
-              src={LUNA_LOGO}
-              alt="Luna Skin"
-              className="h-12 mb-4"
+            <LogoMark
+              boxClassName="mb-4 h-12 md:h-14"
+              imgClassName="brightness-0 invert"
             />
             <p className="text-gray-400 text-sm">Where Simplicity Meets Luxury</p>
           </div>

@@ -1,5 +1,5 @@
 import { Link, useLocation } from "wouter";
-import { LUNA_LOGO } from "@shared/const";
+import { LogoMark } from "@/components/LogoMark";
 // import { ShoppingBag } from "lucide-react"; // 購物車功能暫時隱藏
 
 interface NavigationProps {
@@ -22,8 +22,11 @@ export default function Navigation({ activePath }: NavigationProps) {
     <nav className="bg-white border-b border-gray-200 sticky top-0 z-50 shadow-sm">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <Link href="/">
-            <img src={LUNA_LOGO} alt="Luna Skin" className="h-16 cursor-pointer" />
+          <Link href="/" className="block max-w-[calc(100vw-10rem)] md:max-w-none">
+            <LogoMark
+              boxClassName="h-16 md:h-20 cursor-pointer"
+              imgClassName="cursor-pointer"
+            />
           </Link>
           <div className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (
